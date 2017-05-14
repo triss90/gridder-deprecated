@@ -1,13 +1,21 @@
 .header {
-  min-height: 100vh;
   background: linear-gradient(-180deg, $color1 0%, $color2 100%);
-
+  padding-bottom: 164px;
+  @media(max-width: 48em) {
+    text-align: center;
+    padding-bottom: 64px;
+  }
   .headline {
     color: $color4;
     font-size: 2.1rem;
   }
   .subline {
     color: $color4;
+    font-weight: 100;
     font-size: 1.2rem;
+    margin: 2rem 0;
+    @media(max-width: 48em) {
+      margin: 3rem 0;
+    }
   }
 }

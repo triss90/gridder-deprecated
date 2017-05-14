@@ -1,16 +1,12 @@
 .browser {
   border-radius: .35rem;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  @media(max-width: 48em) {
-    border-radius: 0rem;
-  }
   .browser-header {
     background: darken($color4, 5%);
     border-radius: .35rem .35rem 0 0;
     padding: 0.7rem 1rem;
-    @media(max-width: 48em) {
-      border-radius: 0rem;
-    }
+    display: flex;
+    justify-content: space-between;
     .browser-buttons {
       .button-red, .button-yellow, .button-green {
         height: 0.8rem;
@@ -28,18 +24,21 @@
         background: #5bcc8b;
       }
     }
+    .browser-title {
+      color: darken($color4, 40%);
+    }
   }
   .browser-body {
     color: $color4;
     background: $color5;
     border-radius: 0 0 .35rem .35rem;
     @media(max-width: 48em) {
-      border-radius: 0rem;
+      text-align: left;
     }
     pre {
       margin: 0;
       border-radius: 0 0 .35rem .35rem;
-      font-size: 0.9rem;
+      font-size: 0.75rem;
       code {
         padding: 0 1rem;
         border-radius: 0 0 .35rem .35rem;

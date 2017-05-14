@@ -1,5 +1,38 @@
 .navigation {
-  background: red;
   height: 64px;
   margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  .navigation-items {
+    a {
+      line-height: 64px;
+      color: $color4;
+      margin-left: 2rem;
+      font-weight: 100;
+      text-decoration: none;
+      transition: all 150ms ease-in-out;
+      &:hover {
+        color: rgba($color4,0.4);
+      }
+    }
+  }
+  .logo {
+    margin-top: 12px;
+    .text {
+      color: $color4;
+      font-weight: 100;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      height: 64px;
+      position: relative;
+      top: -8px;
+      margin-left: 5px;
+    }
+    svg g path {
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+  }
+  @media(max-width: 48em) {
+    margin-bottom: 0px;
+  }
 }
