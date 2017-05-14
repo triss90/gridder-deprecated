@@ -1,0 +1,53 @@
+/********************************
+Transition
+
+@include transition(300ms);
+*********************************/
+@mixin transition($time) {
+	-webkit-transition: all $time ease-in-out;
+	   -moz-transition: all $time ease-in-out;
+	    -ms-transition: all $time ease-in-out;
+	     -o-transition: all $time ease-in-out;
+	        transition: all $time ease-in-out;
+}
+
+/********************************
+Transform
+
+@include transform(20px, -40px);
+*********************************/
+@mixin transform($x, $y) {
+	-webkit-transform: translate($x,$y);
+	   -moz-transform: translate($x,$y);
+	    -ms-transform: translate($x,$y);
+	     -o-transform: translate($x,$y);
+	        transform: translate($x,$y);
+}
+
+/********************************
+Breakpoints
+
+.element {
+  color: red;
+  @include breakpoint(medium) {
+    color: blue;
+  }
+}
+*********************************/
+$breakpoints: (
+  'tiny':   ( max-width:  767px ),
+  'small':  ( min-width:  768px ),
+  'medium': ( min-width:  992px ),
+  'large':  ( min-width: 1200px ),
+  'custom': ( min-height:  40em )
+);
+@mixin breakpoint($name) {
+      @if map-has-key($breakpoints, $name) {
+        @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+  @else {
+    @warn "Couldn't find a breakpoint named `#{$name}`.";
+  }
+}
