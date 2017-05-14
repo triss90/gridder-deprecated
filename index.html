@@ -1,41 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Document title</title>
-   <meta charset="utf-8">
-   <meta name="description" content="">
-   <meta name="author" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="icon" type="image/ico" href="/assets/img/favicon.ico">
+  <title>Document title</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css"> -->
+  <link rel="icon" type="image/ico" href="/assets/img/favicon.ico">
 </head>
 <body>
 
-   <!--Content-->
-   <div class="container">
-      <div class="row">
-         <div class="medium-12">
-            <h1>This is a basic page</h1>
-            <p>This <code>index.html</code> serves as a template, just waiting for you to add some content.</p>
-            <p>Learn to use the grid: <a href="https://gridder.io" target="_blank">gridder.io</a></p>
+  <!--Content-->
+
+  <header class="header">
+
+    <nav class="navigation">
+      <div class="container">
+         <div class="row">
+          https://www.iotacss.com/ <br>
+          https://mothereff.in/html-entities <br>
+          https://www.gridder.io/
          </div>
-      </div>
-   </div>
-   <!--Content End-->
+       </div>
+    </nav>
 
-   <footer>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-      <script src="/assets/js/functions.js"></script>
+    <div class="container">
+       <div class="row">
+          <div class="medium-6">
+            <h1 class="headline">Gridder - The simple grid system based on Flexbox.</h1>
+            <p class="subline">Gridder's fluid grid and breakpoints enable endless combinations of column sizes, offsets, allignments and viewport widths.</p>
+            <a href="#0" class="button primary">Download Gridder</a>
+            <a href="#0" class="button">Visit Github</a>
+          </div>
 
-      <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', '??????????????', 'auto');
-      ga('send', 'pageview');
-      </script>
-   </footer>
+          <div class="medium-5 medium-offset-1">
+            <div class="browser">
+              <div class="browser-header">
+                <div class="browser-buttons">
+                  <div class="button-red"></div>
+                  <div class="button-yellow"></div>
+                  <div class="button-green"></div>
+                </div>
+              </div>
+              <div class="browser-body">
+                <pre><code class="html">
+&#x3C;div class=&#x22;row&#x22;&#x3E;
+  &#x3C;div class=&#x22;tiny-12 small-8 medium-6 large-4&#x22;&#x3E;
+    &#x3C;div class=&#x22;box&#x22;&#x3E;Fluid and Responsive grid&#x3C;/div&#x3E;
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+                </code></pre>
+              </div>
+            </div>
+          </div>
+       </div>
+     </div>
+
+  </header>
+  <!--Content End-->
+
+
+  <footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/assets/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/assets/js/functions.js"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', '??????????????', 'auto');
+    ga('send', 'pageview');
+    </script>
+  </footer>
 
 </body>
 </html>

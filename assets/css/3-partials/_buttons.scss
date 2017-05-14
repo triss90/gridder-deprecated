@@ -1,0 +1,19 @@
+.button {
+  background: $color4;
+  color: $color5;
+  padding: .7rem 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1rem;
+  border-radius: 5px;
+
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.3);
+  &:hover {
+    transform: translateY(-2px);
+  }
+  &.primary {
+    background: $color1;
+    color: $color4;
+  }
+}

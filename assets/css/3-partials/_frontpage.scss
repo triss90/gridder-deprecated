@@ -1,0 +1,13 @@
+.header {
+  min-height: 100vh;
+  background: linear-gradient(-180deg, $color1 0%, $color2 100%);
+
+  .headline {
+    color: $color4;
+    font-size: 2.1rem;
+  }
+  .subline {
+    color: $color4;
+    font-size: 1.2rem;
+  }
+}

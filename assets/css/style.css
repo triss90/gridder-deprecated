@@ -4,6 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -357,8 +358,158 @@ th {
   padding: 0; }
 
 /*
+
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34; }
+
+.hljs-comment,
+.hljs-quote {
+  color: #5c6370;
+  font-style: italic; }
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #c678dd; }
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e06c75; }
+
+.hljs-literal {
+  color: #56b6c2; }
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: #98c379; }
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #e6c07b; }
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #d19a66; }
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #61aeee; }
+
+.hljs-emphasis {
+  font-style: italic; }
+
+.hljs-strong {
+  font-weight: bold; }
+
+.hljs-link {
+  text-decoration: underline; }
+
+html {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif; }
+
+body {
+  font-size: 1em;
+  line-height: 1.25; }
+  @media (min-width: 43.75em) {
+    body {
+      font-size: 1em;
+      line-height: 1.375; } }
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5; }
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25; }
+  @media (min-width: 43.75em) {
+    h1 {
+      font-size: 2.5em;
+      line-height: 1.125; } }
+  @media (min-width: 56.25em) {
+    h1 {
+      font-size: 3em;
+      line-height: 1.05; } }
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615; }
+  @media (min-width: 43.75em) {
+    h2 {
+      font-size: 2em;
+      line-height: 1.25; } }
+  @media (min-width: 56.25em) {
+    h2 {
+      font-size: 2.25em;
+      line-height: 1.25; } }
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364; }
+  @media (min-width: 43.75em) {
+    h3 {
+      font-size: 1.5em;
+      line-height: 1.25; } }
+  @media (min-width: 56.25em) {
+    h3 {
+      font-size: 1.75em;
+      line-height: 1.25; } }
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111; }
+  @media (min-width: 43.75em) {
+    h4 {
+      line-height: 1.22222222; } }
+
+blockquote {
+  font-size: 1.25em;
+  line-height: 1.25; }
+  @media (min-width: 43.75em) {
+    blockquote {
+      font-size: 1.5em;
+      line-height: 1.45833333; } }
+
+/*
 Name: Gridder.io
-Description: Grid Framework
+Description: Flexbox Grid Framework
 Author URI: https://gridder.io/
 Version: 1.4.1
 Author: Tristan White
@@ -1048,23 +1199,72 @@ Author: Tristan White
     -ms-flex-order: 1;
     order: 1; } }
 
-/********************************
-Transition
+.navigation {
+  background: red;
+  height: 64px;
+  margin-bottom: 100px; }
 
-@include transition(300ms);
-*********************************/
-/********************************
-Transform
+.header {
+  min-height: 100vh;
+  background: linear-gradient(-180deg, #5533FF 0%, #05D5FF 100%); }
+  .header .headline {
+    color: #f8f8f8;
+    font-size: 2.1rem; }
+  .header .subline {
+    color: #f8f8f8;
+    font-size: 1.2rem; }
 
-@include transform(20px, -40px);
-*********************************/
-/********************************
-Breakpoints
+.browser {
+  border-radius: .35rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+  @media (max-width: 48em) {
+    .browser {
+      border-radius: 0rem; } }
+  .browser .browser-header {
+    background: #ebebeb;
+    border-radius: .35rem .35rem 0 0;
+    padding: 0.7rem 1rem; }
+    @media (max-width: 48em) {
+      .browser .browser-header {
+        border-radius: 0rem; } }
+    .browser .browser-header .browser-buttons .button-red, .browser .browser-header .browser-buttons .button-yellow, .browser .browser-header .browser-buttons .button-green {
+      height: 0.8rem;
+      width: 0.8rem;
+      border-radius: 50%;
+      display: inline-block; }
+    .browser .browser-header .browser-buttons .button-red {
+      background: #df7065; }
+    .browser .browser-header .browser-buttons .button-yellow {
+      background: #e6bb46; }
+    .browser .browser-header .browser-buttons .button-green {
+      background: #5bcc8b; }
+  .browser .browser-body {
+    color: #f8f8f8;
+    background: #282c34;
+    border-radius: 0 0 .35rem .35rem; }
+    @media (max-width: 48em) {
+      .browser .browser-body {
+        border-radius: 0rem; } }
+    .browser .browser-body pre {
+      margin: 0;
+      border-radius: 0 0 .35rem .35rem;
+      font-size: 0.9rem; }
+      .browser .browser-body pre code {
+        padding: 0 1rem;
+        border-radius: 0 0 .35rem .35rem; }
 
-.element {
-  color: red;
-  @include breakpoint(medium) {
-    color: blue;
-  }
-}
-*********************************/
+.button {
+  background: #f8f8f8;
+  color: #282c34;
+  padding: .7rem 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1rem;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3); }
+  .button:hover {
+    transform: translateY(-2px); }
+  .button.primary {
+    background: #5533FF;
+    color: #f8f8f8; }
