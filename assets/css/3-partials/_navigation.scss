@@ -18,6 +18,26 @@
   }
   .logo {
     margin-top: 12px;
+    text-decoration: none;
+
+    &:hover {
+      .text {
+        color: rgba($color4,0.4);
+      }
+      #gridder-logo {
+        path {
+          fill: rgba($color4,0.4);
+          //transform: rotateZ(72deg) scale(0.8);
+          &:first-child {
+            transform: translateX(39px)rotateZ(30deg);
+          }
+          &:nth-child(2) {
+            transform: translateX(-39px)rotateZ(-30deg);
+          }
+          transform-origin: center center;
+        }
+      }
+    }
     .text {
       color: $color4;
       font-weight: 100;
@@ -25,11 +45,15 @@
       text-transform: uppercase;
       height: 64px;
       position: relative;
-      top: -8px;
+      top: -10px;
       margin-left: 5px;
+      transition: all 100ms ease-in-out;
     }
-    svg g path {
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    #gridder-logo {
+      overflow: visible;
+      path {
+        transition: all 100ms ease-in-out;
+      }
     }
   }
   @media(max-width: 48em) {

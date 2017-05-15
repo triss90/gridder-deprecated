@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
-  // jQuery goes here...!
+  // Initialize highlighting
+  hljs.initHighlightingOnLoad();
 
 });

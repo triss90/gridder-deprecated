@@ -1214,7 +1214,17 @@ blockquote {
     .navigation .navigation-items a:hover {
       color: rgba(248, 248, 248, 0.4); }
   .navigation .logo {
-    margin-top: 12px; }
+    margin-top: 12px;
+    text-decoration: none; }
+    .navigation .logo:hover .text {
+      color: rgba(248, 248, 248, 0.4); }
+    .navigation .logo:hover #gridder-logo path {
+      fill: rgba(248, 248, 248, 0.4);
+      transform-origin: center center; }
+      .navigation .logo:hover #gridder-logo path:first-child {
+        transform: translateX(39px) rotateZ(30deg); }
+      .navigation .logo:hover #gridder-logo path:nth-child(2) {
+        transform: translateX(-39px) rotateZ(-30deg); }
     .navigation .logo .text {
       color: #f8f8f8;
       font-weight: 100;
@@ -1222,10 +1232,13 @@ blockquote {
       text-transform: uppercase;
       height: 64px;
       position: relative;
-      top: -8px;
-      margin-left: 5px; }
-    .navigation .logo svg g path {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+      top: -10px;
+      margin-left: 5px;
+      transition: all 100ms ease-in-out; }
+    .navigation .logo #gridder-logo {
+      overflow: visible; }
+      .navigation .logo #gridder-logo path {
+        transition: all 100ms ease-in-out; }
   @media (max-width: 48em) {
     .navigation {
       margin-bottom: 0px; } }
@@ -1240,6 +1253,9 @@ blockquote {
   .header .headline {
     color: #f8f8f8;
     font-size: 2.1rem; }
+    @media (max-width: 48em) {
+      .header .headline {
+        margin: 4rem 0 0 0; } }
   .header .subline {
     color: #f8f8f8;
     font-weight: 100;
@@ -1270,7 +1286,10 @@ blockquote {
     .browser .browser-header .browser-buttons .button-green {
       background: #5bcc8b; }
     .browser .browser-header .browser-title {
-      color: #929292; }
+      color: #acabab;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      margin-top: 0.2rem; }
   .browser .browser-body {
     color: #f8f8f8;
     background: #282c34;

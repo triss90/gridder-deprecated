@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+$(document).ready(function(){hljs.initHighlightingOnLoad()});

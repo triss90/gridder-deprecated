@@ -25,7 +25,10 @@
       }
     }
     .browser-title {
-      color: darken($color4, 40%);
+      color: darken($color4, 30%);
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      margin-top: 0.2rem;
     }
   }
   .browser-body {
