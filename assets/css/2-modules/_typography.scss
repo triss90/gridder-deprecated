@@ -74,3 +74,10 @@ blockquote {
     line-height: 1.45833333;
   }
 }
+
+a {
+  color: $color3;
+  &:hover {
+    color: $color1;
+  }
+}

@@ -9,6 +9,7 @@
   .headline {
     color: $color4;
     font-size: 2.1rem;
+    font-weight: 100;
     @media(max-width: 48em) {
       margin: 4rem 0 0 0;
     }
@@ -16,10 +17,16 @@
   .subline {
     color: $color4;
     font-weight: 100;
+    font-weight: 100;
     font-size: 1.2rem;
     margin: 2rem 0;
     @media(max-width: 48em) {
       margin: 3rem 0;
+    }
+  }
+  .howto {
+    h2 {
+      font-weight: 100;
     }
   }
 }
@@ -27,4 +34,8 @@
 #getting-started {
   background: darken($color4, 1%);
   padding: 75px 0;
+  h2 {
+    color: lighten($color5, 10%);
+    font-weight: 100;
+  }
 }

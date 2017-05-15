@@ -99,8 +99,10 @@ pre {
   overflow: visible;
 }
 .codeblock {
-  background: rgba(0,0,0,0.45);
+  // background: darken(#f8f8f8,5%);
+  // border: 1px solid darken(#f8f8f8, 10%);
   border-radius: 5px;
+  padding: 0 1rem;
   font-size: 0.8rem;
   position: relative;
   overflow-y: visible;
@@ -108,8 +110,8 @@ pre {
   &:before {
     content: "HTML";
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1px;
+    right: -1px;
     color: white;
     background: rgba(0,0,0,0.45);
     padding: 0 0.3rem;

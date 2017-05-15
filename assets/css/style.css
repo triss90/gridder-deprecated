@@ -445,8 +445,8 @@ pre {
   overflow: visible; }
 
 .codeblock {
-  background: rgba(0, 0, 0, 0.45);
   border-radius: 5px;
+  padding: 0 1rem;
   font-size: 0.8rem;
   position: relative;
   overflow-y: visible;
@@ -454,8 +454,8 @@ pre {
   .codeblock:before {
     content: "HTML";
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1px;
+    right: -1px;
     color: white;
     background: rgba(0, 0, 0, 0.45);
     padding: 0 0.3rem; }
@@ -1219,6 +1219,11 @@ blockquote {
       font-size: 1.5em;
       line-height: 1.45833333; } }
 
+a {
+  color: #8A22EC; }
+  a:hover {
+    color: #5533FF; }
+
 .navigation {
   height: 64px;
   margin-bottom: 100px;
@@ -1273,22 +1278,29 @@ blockquote {
       padding-bottom: 64px; } }
   .header .headline {
     color: #f8f8f8;
-    font-size: 2.1rem; }
+    font-size: 2.1rem;
+    font-weight: 100; }
     @media (max-width: 48em) {
       .header .headline {
         margin: 4rem 0 0 0; } }
   .header .subline {
     color: #f8f8f8;
     font-weight: 100;
+    font-weight: 100;
     font-size: 1.2rem;
     margin: 2rem 0; }
     @media (max-width: 48em) {
       .header .subline {
         margin: 3rem 0; } }
+  .header .howto h2 {
+    font-weight: 100; }
 
 #getting-started {
   background: whitesmoke;
   padding: 75px 0; }
+  #getting-started h2 {
+    color: #3e4451;
+    font-weight: 100; }
 
 .browser {
   border-radius: .35rem;
@@ -1362,3 +1374,5 @@ blockquote {
   .label.inline {
     font-size: 0.9rem;
     padding: 0.1rem 0.3rem; }
+  .label.dark {
+    color: #49515f; }
