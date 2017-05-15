@@ -1,6 +1,7 @@
 .header {
   background: linear-gradient(-180deg, $color1 0%, $color2 100%);
   padding-bottom: 164px;
+  color: $color4;
   @media(max-width: 48em) {
     text-align: center;
     padding-bottom: 64px;
@@ -21,4 +22,9 @@
       margin: 3rem 0;
     }
   }
+}
+
+#getting-started {
+  background: darken($color4, 1%);
+  padding: 75px 0;
 }

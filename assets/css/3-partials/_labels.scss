@@ -1,0 +1,11 @@
+.label {
+  background: rgba($color5,0.2);
+  color: $color4;
+  padding: 0.2rem 0.6rem;
+  display: inline-block;
+  border-radius: 3px;
+  &.inline {
+    font-size: 0.9rem;
+    padding: 0.1rem 0.3rem;
+  }
+}

@@ -94,3 +94,24 @@ hue-6-2: #e6c07b
 .hljs-link {
   text-decoration: underline;
 }
+
+pre {
+  overflow: visible;
+}
+.codeblock {
+  background: rgba(0,0,0,0.45);
+  border-radius: 5px;
+  font-size: 0.8rem;
+  position: relative;
+  overflow-y: visible;
+  text-align: left !important;
+  &:before {
+    content: "HTML";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    background: rgba(0,0,0,0.45);
+    padding: 0 0.3rem;
+  }
+}

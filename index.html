@@ -14,11 +14,9 @@
   <!--Content-->
 
   <header class="header">
-
     <div class="container">
 
       <nav class="navigation">
-
         <a href="/" class="logo">
           <svg id="gridder-logo" width="40px" height="40px" viewBox="0 0 315 313" xmlns="http://www.w3.org/2000/svg">
             <title>Gridder Logo</title>
@@ -30,35 +28,32 @@
           </svg>
           <span class="text">Gridder</span>
         </a>
-
         <div class="navigation-items">
           <a href="#0">Installation guide</a>
           <a href="#0">Examples</a>
           <a href="#0">Docs</a>
         </div>
-
       </nav>
 
-       <div class="row">
-          <div class="tiny-12 small-12 medium-6 large-6">
-            <h1 class="headline">Gridder - The simple grid system based on Flexbox.</h1>
-            <p class="subline">Gridder's fluid grid and breakpoints enable endless combinations of column sizes, offsets, allignments and viewport widths.</p>
-            <a href="#0" class="button primary">Download Gridder</a>
-            <a href="#0" class="button">Visit Github</a>
-          </div>
-
-          <div class="tiny-12 small-12 medium-6 medium-offset-0 large-5 large-offset-1">
-            <div class="browser">
-              <div class="browser-header">
-                <div class="browser-buttons">
-                  <div class="button-red"></div>
-                  <div class="button-yellow"></div>
-                  <div class="button-green"></div>
-                </div>
-                <div class="browser-title">Fluid grid example</div>
+      <div class="row">
+        <div class="tiny-12 small-12 medium-6 large-6">
+          <h1 class="headline">Gridder - The simple grid system based on Flexbox.</h1>
+          <p class="subline">Gridder's fluid grid and breakpoints enable endless combinations of column sizes, offsets, allignments and viewport widths.</p>
+          <a href="#0" class="button primary">Download Gridder</a>
+          <a href="#0" class="button">Visit Github</a>
+        </div>
+        <div class="tiny-12 small-12 medium-6 medium-offset-0 large-5 large-offset-1">
+          <div class="browser">
+            <div class="browser-header">
+              <div class="browser-buttons">
+                <div class="button-red"></div>
+                <div class="button-yellow"></div>
+                <div class="button-green"></div>
               </div>
-              <div class="browser-body">
-                <pre><code class="html">
+              <div class="browser-title">Fluid grid example</div>
+            </div>
+            <div class="browser-body">
+              <pre><code class="html">
 &#x3C;div class=&#x22;container&#x22;&#x3E;
   &#x3C;div class=&#x22;row&#x22;&#x3E;
     &#x3C;div class=&#x22;tiny-12 small-8 medium-6 large-4&#x22;&#x3E;
@@ -72,24 +67,67 @@
     &#x3C;/div&#x3E;
   &#x3C;/div&#x3E;
 &#x3C;/div&#x3E;
-                </code></pre>
-              </div>
+              </code></pre>
             </div>
           </div>
-       </div>
-     </div>
+        </div>
+      </div>
 
+      <div class="devider"></div>
+
+      <div class="row howto">
+        <div class="tiny-12 small-12 medium-6">
+          <div class="label">How it works</div>
+            <h2>The syntax</h2>
+            <p>First, make sure to wrap your columns in a row element. Then specify your columns and stick your content inside.
+            Use the following classes to identify your coloumns: <span class="label inline">tiny-*</span> <span class="label inline">small-*</span> <span class="label inline">medium-*</span> <span class="label inline">large-*</span></p>
+            <i>* is a number between 1 and 12, where 1 is a single column.</i>
+          </p>
+        </div>
+        <div class="tiny-12 small-12 medium-6">
+          <pre><code class="html codeblock">
+&#x3C;div class=&#x22;row&#x22;&#x3E;
+  &#x3C;div class=&#x22;tiny-12&#x22;&#x3E;
+    This spans 12/12 columns on all screensizes
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+
+&#x3C;div class=&#x22;row&#x22;&#x3E;
+  &#x3C;div class=&#x22;medium-6&#x22;&#x3E;
+    This spans 6/12 columns on screens wider then
+    the medium breakpoint, but will span 12/12 on smaller screens
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+
+&#x3C;div class=&#x22;row&#x22;&#x3E;
+  &#x3C;div class=&#x22;small-12 medium-6 large-4&#x22;&#x3E;
+    This spans 12/12 columns on small screens,
+    6/12 on medium screens and 4/4 on large screens
+  &#x3C;/div&#x3E;
+&#x3C;/div&#x3E;
+          </code></pre>
+        </div>
+      </div>
+    </div>
   </header>
 
 
-  <section id="faq">
-
+  <section id="getting-started">
     <div class="container">
+      <div class="row">
+        <div class="medium-12">
+          <div class="label">Getting started</div>
+          <h2>Quick installation guide</h2>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="faq">
+    <div class="container">
       <div class="row">
         <h2>Frequently asked questions</h2>
       </div>
-
       <div class="row">
         <div class="medium-6">
           <h3>What about browser support ?</h3>
@@ -100,9 +138,6 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae laudantium velit quae quam adipisci? Eaque ipsum maxime expedita libero magnam architecto recusandae, nihil necessitatibus laborum labore laboriosam, reiciendis cupiditate vitae.</p>
         </div>
       </div>
-
-
-
       <div class="row">
         <div class="medium-6">
           <h3>Who uses Gridder ?</h3>
@@ -113,12 +148,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae laudantium velit quae quam adipisci? Eaque ipsum maxime expedita libero magnam architecto recusandae, nihil necessitatibus laborum labore laboriosam, reiciendis cupiditate vitae.</p>
         </div>
       </div>
-
     </div>
-
-
-
-
   </section>
 
   <footer>
