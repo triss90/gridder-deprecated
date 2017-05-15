@@ -1,5 +1,6 @@
 <?php
   $gridderFileName = "gridder-1.4.1.css";
+  $gridderFilePath = "/gridder/compiled/gridder-1.4.1.css";
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +43,7 @@
         <div class="tiny-12 small-12 medium-6 large-6">
           <h1 class="headline">Gridder - The simple grid system based on Flexbox.</h1>
           <p class="subline">Gridder's fluid grid and breakpoints enable endless combinations of column sizes, offsets, allignments and viewport widths.</p>
-          <a href="#0" class="button primary">Download Gridder</a>
+          <a href="<?php echo $gridderFilePath; ?>" download class="button primary">Download Gridder</a>
           <a href="#0" class="button">Visit Github</a>
         </div>
         <div class="tiny-12 small-12 medium-6 medium-offset-0 large-5 large-offset-1">
@@ -53,24 +54,18 @@
                 <div class="button-yellow"></div>
                 <div class="button-green"></div>
               </div>
-              <div class="browser-title">Fluid grid example</div>
+              <div class="browser-title">Fluid grid</div>
             </div>
             <div class="browser-body">
-              <pre><code class="html">
-&#x3C;div class=&#x22;container&#x22;&#x3E;
-  &#x3C;div class=&#x22;row&#x22;&#x3E;
-    &#x3C;div class=&#x22;tiny-12 small-8 medium-6 large-4&#x22;&#x3E;
-      &#x3C;div class=&#x22;box&#x22;&#x3E;Grid item 1&#x3C;/div&#x3E;
-    &#x3C;/div&#x3E;
-    &#x3C;div class=&#x22;tiny-12 small-8 medium-6 large-4&#x22;&#x3E;
-      &#x3C;div class=&#x22;box&#x22;&#x3E;Grid item 2&#x3C;/div&#x3E;
-    &#x3C;/div&#x3E;
-    &#x3C;div class=&#x22;tiny-12 small-8 medium-6 large-4&#x22;&#x3E;
-      &#x3C;div class=&#x22;box&#x22;&#x3E;Grid item 3&#x3C;/div&#x3E;
-    &#x3C;/div&#x3E;
-  &#x3C;/div&#x3E;
-&#x3C;/div&#x3E;
-              </code></pre>
+              <div class="box one"></div>
+              <div class="box two"></div>
+              <div class="box three"></div>
+              <div class="box four"></div>
+              <div class="box five"></div>
+              <div class="box six"></div>
+              <div class="box seven"></div>
+              <div class="box eight"></div>
+              <div class="box nine"></div>
             </div>
           </div>
         </div>
@@ -121,7 +116,7 @@
         <div class="medium-12">
           <div class="label">Getting started</div>
           <h2>Quick installation guide</h2>
-          <p>Simply <a href="/gridder/compiled/<?php echo $gridderFileName; ?>" download>download</a> gridder and add it to your head, like this:</p>
+          <p>Simply <a href="<?php echo $gridderFilePath; ?>" download>download</a> gridder and add it to your head, like this:</p>
           <pre><code class="html codeblock">
 // index.html
 &#x3C;html&#x3E;

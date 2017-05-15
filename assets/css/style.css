@@ -1330,17 +1330,54 @@ a {
   .browser .browser-body {
     color: #f8f8f8;
     background: #282c34;
-    border-radius: 0 0 .35rem .35rem; }
-    @media (max-width: 48em) {
-      .browser .browser-body {
-        text-align: left; } }
-    .browser .browser-body pre {
-      margin: 0;
-      border-radius: 0 0 .35rem .35rem;
-      font-size: 0.75rem; }
-      .browser .browser-body pre code {
-        padding: 0 1rem;
-        border-radius: 0 0 .35rem .35rem; }
+    border-radius: 0 0 .35rem .35rem;
+    padding: 12px;
+    overflow: scroll; }
+    .browser .browser-body:hover .box.one {
+      width: calc(66.6666% - 20px); }
+    .browser .browser-body:hover .box.two {
+      width: calc(33.3333% - 20px); }
+    .browser .browser-body:hover .box.three {
+      width: calc(33.3333% - 20px); }
+    .browser .browser-body:hover .box.four {
+      width: calc(33.3333% - 20px); }
+    .browser .browser-body:hover .box.five {
+      width: calc(33.3333% - 20px); }
+    .browser .browser-body:hover .box.six {
+      width: calc(50% - 20px); }
+    .browser .browser-body:hover .box.seven {
+      width: calc(50% - 20px); }
+    .browser .browser-body:hover .box.eight {
+      width: calc(90% - 20px); }
+    .browser .browser-body:hover .box.nine {
+      width: calc(10% - 20px); }
+    .browser .browser-body .box {
+      height: 50px;
+      width: calc(100% - 20px);
+      background: #49515f;
+      margin: 10px;
+      box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      float: left;
+      transition: width 500ms ease-in-out; }
+      .browser .browser-body .box.one {
+        width: calc(33.3333% - 20px); }
+      .browser .browser-body .box.two {
+        width: calc(66.6666% - 20px); }
+      .browser .browser-body .box.three {
+        width: calc(25% - 20px); }
+      .browser .browser-body .box.four {
+        width: calc(25% - 20px); }
+      .browser .browser-body .box.five {
+        width: calc(50% - 20px); }
+      .browser .browser-body .box.six {
+        width: calc(75% - 20px); }
+      .browser .browser-body .box.seven {
+        width: calc(25% - 20px); }
+      .browser .browser-body .box.eight {
+        width: calc(50% - 20px); }
+      .browser .browser-body .box.nine {
+        width: calc(50% - 20px); }
 
 .button {
   background: #f8f8f8;
