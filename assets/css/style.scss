@@ -1,11 +1,11 @@
 //Vendor - Reserved for vendor CSS, usually included with third party libraries.
 @import '1-vendor/normalize';
 @import '1-vendor/highlight-js';
+@import '../../gridder/gridder-1.4.1';
 
 //Base - CSS that does not cause any direct styling to the page - variables and mixins
 @import '2-modules/settings';
 @import '2-modules/typography';
-@import '2-modules/gridder-1.4.1';
 
 //Pages - Styles specific to different elements
 @import '3-partials/navigation';

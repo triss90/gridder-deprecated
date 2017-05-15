@@ -35,19 +35,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/2-modules\/_gridder-1.4.1.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/2-modules\/_gridder-1.4.1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/css\/2-modules\/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -203,6 +190,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/gridder\/_gridder-1.4.1.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/gridder\/compiled\/gridder-1.4.1.css",
+		"oF": 3,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/gridder\/compiled\/gridder-1.4.1.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/gridder\/compiled\/gridder-1.4.1-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -218,7 +228,7 @@
 	"creationDate": 516466244,
 	"displayValue": "gridder_v4",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-kahn"
+	"iconImageName": "\/assets\/img\/gridder-icon.png"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
