@@ -1,4 +1,25 @@
 footer {
   background: $color5;
   padding: 100px 0;
+  p, a {
+    color: $color4;
+    font-weight: 100;
+  }
+  a {
+    border: 0;
+    &:hover {
+      background: none;
+    }
+  }
+  #github-icon, #twitter-icon {
+    width: 40px;
+    height: 40px;
+    transition: all 150ms ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+    path {
+      fill: $color4
+    }
+  }
 }
