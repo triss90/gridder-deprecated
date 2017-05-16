@@ -142,28 +142,30 @@ https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.1.0/3Dmol-min.js
 
   <section id="faq">
     <div class="container">
-      <div class="row">
+      <div class="row center-tiny">
         <h2>Frequently asked questions</h2>
       </div>
+      <hr>
       <div class="row">
-        <div class="medium-6">
+        <div class="medium-5">
           <h3>What about browser support ?</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae laudantium velit quae quam adipisci? Eaque ipsum maxime expedita libero magnam architecto recusandae, nihil necessitatibus laborum labore laboriosam, reiciendis cupiditate vitae.</p>
+          <p>Gridder works in all modern browsers. <span class="label inline dark">IE10+</span> <span class="label inline dark">Edge</span> <span class="label inline dark">Firefox</span> <span class="label inline dark">Chrome</span> <span class="label inline dark">Safari</span> <span class="label inline dark">Opera</span></p>
+          <p class="ciu_embed" data-feature="flexbox" data-periods="future_1,current,past_1,past_2">
+            <a href="http://caniuse.com/#feat=flexbox">Can I Use flexbox?</a> Data on support for the flexbox feature across the major browsers from caniuse.com.
+          </p>
         </div>
-        <div class="medium-6">
+        <div class="medium-6 medium-offset-1">
           <h3>What is in store for Gridder in the future ?</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae laudantium velit quae quam adipisci? Eaque ipsum maxime expedita libero magnam architecto recusandae, nihil necessitatibus laborum labore laboriosam, reiciendis cupiditate vitae.</p>
+          <p>Were currently working on a new version of gridder built entirely on <span class="label inline dark">CSS Grid Layout</span>. This build, however, will remain experimental untill the it is fully <a href="http://caniuse.com/#search=gri" target="_blank">supported</a> in all major browser</p>
+
+          <h3>Should I use Gridder in my next project?</h3>
+          <p>The short answer... YES!</p>
+          <p>Gridder is built to be scalable, and thus works for small, aswell as large projects. There's been some controversy about the speed of flexbox when used for pagelayouts, but this has been <a href="https://developers.google.com/web/updates/2013/10/Flexbox-layout-isn-t-slow" target="_blank">debunked</a></p>
+          <p>With that said, Gridder excels in small to mid-sized projects, largly because of it's easy of use and setup.</p>
         </div>
       </div>
       <div class="row">
-        <div class="medium-6">
-          <h3>Who uses Gridder ?</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium praesentium, quas temporibus doloribus quia dicta facilis eaque, similique, sed earum cumque sit, saepe nisi quaerat reiciendis mollitia delectus asperiores laboriosam.</p>
-        </div>
-        <div class="medium-6">
-          <h3>What about browser support ?</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae laudantium velit quae quam adipisci? Eaque ipsum maxime expedita libero magnam architecto recusandae, nihil necessitatibus laborum labore laboriosam, reiciendis cupiditate vitae.</p>
-        </div>
+
       </div>
     </div>
   </section>
@@ -182,6 +184,7 @@ https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.1.0/3Dmol-min.js
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="/assets/js/highlight.pack.js"></script>
+  <script src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>
   <script src="/assets/js/functions.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
