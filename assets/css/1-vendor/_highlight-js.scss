@@ -107,6 +107,11 @@ pre {
   position: relative;
   overflow-y: visible;
   text-align: left !important;
+  &.http {
+    &:before {
+      content:"LINK";
+    }
+  }
   &:before {
     content: "HTML";
     position: absolute;

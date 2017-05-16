@@ -76,8 +76,13 @@ blockquote {
 }
 
 a {
-  color: $color3;
+  color: $color5;
+  text-decoration: none;
+  border-bottom: 2px solid $color2;
+  transition: all 150ms ease;
   &:hover {
-    color: $color1;
+    // color: darken($color2, 10%);
+    background: $color2;
+    color: $color4;
   }
 }

@@ -9,8 +9,11 @@
   transition: all 200ms ease-in-out;
   box-shadow: 0 1px 7px rgba(0,0,0,0.3);
   margin-bottom: 3rem;
+  border: 0;
   &:hover {
     transform: translateY(-2px);
+    color: $color5;
+    background: $color4;
   }
   &.primary {
     background: $color1;

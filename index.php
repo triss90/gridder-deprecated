@@ -131,7 +131,7 @@
           </code></pre>
           <p>Remember to add <span class="label inline dark">&#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1&#x22;&#x3E;</span> to the head aswell, to make sure the site scales correctly</p>
           <br><p>Gridder is also available through CDNJS:</p>
-          <pre><code class="html codeblock">
+          <pre><code class="html codeblock http">
 https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.1.0/3Dmol-min.js
           </code></pre>
         </div>
