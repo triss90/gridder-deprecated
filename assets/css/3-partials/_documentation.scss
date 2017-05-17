@@ -1,0 +1,118 @@
+.documentation_wrapper {
+  background: linear-gradient(-180deg, $color1 30%, $color2 100%);
+
+  .documentation_inner {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    @media(min-width: 48em) {
+      width: 46rem;
+    }
+    @media(min-width: 64em) {
+      width: 62rem;
+    }
+    @media(min-width: 75em) {
+      width: 73rem;
+    }
+  }
+
+  .documentation_nav {
+    min-height: 100vh;
+    position: relative;
+    width: 25%;
+    min-width: 250px;
+    padding: 2rem 0.5rem;
+    .logo {
+      margin-bottom: 3rem;
+      text-decoration: none;
+      display: block;
+      position: relative;
+      height: auto;
+      border: 0;
+      &:hover {
+        background: none;
+        .text {
+          color: rgba($color4,0.4);
+        }
+        #gridder-logo {
+          path {
+            fill: rgba($color4,0.4);
+            //transform: rotateZ(72deg) scale(0.8);
+            &:first-child {
+              transform: translateX(39px)rotateZ(30deg);
+            }
+            &:nth-child(2) {
+              transform: translateX(-39px)rotateZ(-30deg);
+            }
+            transform-origin: center center;
+          }
+        }
+      }
+      .text {
+        color: $color4;
+        font-weight: 100;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        height: 64px;
+        position: relative;
+        top: -10px;
+        margin-left: 5px;
+        transition: all 100ms ease-in-out;
+        border: 0;
+      }
+      #gridder-logo {
+        overflow: visible;
+        path {
+          transition: all 100ms ease-in-out;
+        }
+      }
+    }
+    .title {
+      color: rgba($color4, 0.7);
+      font-size: 1.1rem;
+      font-weight: 100;
+      text-transform: uppercase;
+    }
+    .link {
+      display: block;
+      border: 0;
+      color: $color4;
+      margin: 0.3rem 0;
+      &:hover {
+        background: none;
+        color: rgba($color4, 0.7);
+      }
+    }
+    hr {
+      background: rgba($color4, 0.3);
+      border: 0;
+      height: 1px;
+      margin: 2rem 0;
+    }
+  }
+
+  .documentation_content {
+    background: $color4;
+    width: 75%;
+    min-height: 100vh;
+    position: relative;
+    padding: 2rem 1rem;
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 0;
+      right: 0;
+      left: 100%;
+      bottom: 0;
+      z-index: 0;
+      background: $color4;
+      width: 10000%;
+    }
+    hr {
+      height: 1px;
+      border: 0;
+      background: darken($color4,15%);
+    }
+  }
+}
