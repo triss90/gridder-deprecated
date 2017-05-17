@@ -61,6 +61,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/3-partials\/_breadcrumbs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/3-partials\/_breadcrumbs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/3-partials\/_browser.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -229,6 +242,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/docs\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/index.php",
+		"oF": 0
+		},
 	"\/gridder\/_gridder-1.4.1.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -251,6 +270,18 @@
 		"oAP": "\/gridder\/compiled\/gridder-1.4.1-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/inc\/footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/footer.php",
+		"oF": 0
+		},
+	"\/inc\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/header.php",
+		"oF": 0
 		},
 	"\/index.php": {
 		"ft": 8192,

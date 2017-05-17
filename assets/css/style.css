@@ -1462,3 +1462,23 @@ footer {
       transform: scale(1.1); }
     footer #github-icon path, footer #twitter-icon path {
       fill: #f8f8f8; }
+
+.breadcrumbs .crumb {
+  font-size: 0.9rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #acabab;
+  border: 0; }
+  .breadcrumbs .crumb:hover {
+    color: #05D5FF;
+    background: none; }
+  .breadcrumbs .crumb:after {
+    content: "/";
+    padding: 0 .8rem;
+    color: #acabab; }
+  .breadcrumbs .crumb:last-child {
+    color: #282c34;
+    font-weight: 700;
+    pointer-events: none; }
+    .breadcrumbs .crumb:last-child:after {
+      content: ""; }
