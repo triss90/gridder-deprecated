@@ -274,6 +274,12 @@
 		"oAP": "\/docs\/alignment\/center\/index.php",
 		"oF": 0
 		},
+	"\/docs\/alignment\/end\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/alignment\/end\/index.php",
+		"oF": 0
+		},
 	"\/docs\/alignment\/index.php": {
 		"ft": 8192,
 		"oA": 2,

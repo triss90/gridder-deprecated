@@ -19,7 +19,7 @@
           <div class="breadcrumbs">
             <a href="/docs" class="crumb">Documentation</a>
             <a href="/docs/alignment" class="crumb">Alignment</a>
-            <a href="#0" class="crumb">Center</a>
+            <a href="#0" class="crumb">End</a>
           </div>
           <hr>
         </div>
@@ -28,20 +28,20 @@
       <div class="row">
 
         <div class="tiny">
-          <h1>Alignment (Center)</h1>
+          <h1>Alignment (End)</h1>
           <p>Gridder allows you to align columns as you see fit.
-            With <span class="label inline dark">.center-</span> you can force a column to the center of a row.</p>
+            With <span class="label inline dark">.end-</span> you can force a column to the end of a row.</p>
 
-          <div class="row center-tiny example-row">
+          <div class="row end-tiny example-row">
             <div class="tiny-6">
-              <div class="example-box">Center</div>
+              <div class="example-box">End</div>
             </div>
           </div>
 
           <pre><code class="html codeblock">
-&#x3C;div class=&#x22;row center-tiny&#x22;&#x3E;
+&#x3C;div class=&#x22;row end-tiny&#x22;&#x3E;
   &#x3C;div class=&#x22;tiny-6&#x22;&#x3E;
-    &#x3C;div class=&#x22;example-box&#x22;&#x3E;Center&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;example-box&#x22;&#x3E;End&#x3C;/div&#x3E;
   &#x3C;/div&#x3E;
 &#x3C;/div&#x3E;
           </code></pre>
