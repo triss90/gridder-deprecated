@@ -1592,3 +1592,13 @@ footer {
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 5px; }
+  .example-box .example-box-nested {
+    background: #3e4451;
+    padding: 1rem;
+    border-radius: 5px; }
+    @media (max-width: 64em) {
+      .example-box .example-box-nested {
+        margin-bottom: 1rem; } }
+    @media (max-width: 64em) {
+      .example-box .example-box-nested.last-child {
+        margin-bottom: 0; } }

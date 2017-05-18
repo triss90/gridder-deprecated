@@ -4,4 +4,18 @@
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 5px;
+
+  .example-box-nested {
+    background: lighten($color5, 10%);
+    padding: 1rem;
+    border-radius: 5px;
+    @media(max-width: 64em) {
+      margin-bottom: 1rem;
+    }
+    &.last-child {
+      @media(max-width: 64em) {
+        margin-bottom: 0;
+      }
+    }
+  }
 }

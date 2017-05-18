@@ -20,7 +20,7 @@
   <h2 class="title">Basic Grid</h2>
   <a href="/docs/auto-grid/" class="link">Auto Grid</a>
   <a href="/docs/offsets/" class="link">Offsets</a>
-  <a href="#" class="link">Nesting</a>
+  <a href="/docs/nesting/" class="link">Nesting</a>
 
   <hr>
 
