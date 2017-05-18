@@ -286,6 +286,12 @@
 		"oAP": "\/docs\/installation\/index.php",
 		"oF": 0
 		},
+	"\/docs\/offsets\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/offsets\/index.php",
+		"oF": 0
+		},
 	"\/docs\/syntax\/index.php": {
 		"ft": 8192,
 		"oA": 2,
