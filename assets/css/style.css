@@ -1154,6 +1154,9 @@ Author: Tristan White
     -ms-flex-order: 1;
     order: 1; } }
 
+body {
+  overflow-x: hidden; }
+
 html {
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
@@ -1422,6 +1425,12 @@ a {
       height: 1px;
       border: 0;
       background: #d2d2d2; }
+    .documentation_wrapper .documentation_content h1 {
+      font-size: 2rem;
+      font-weight: 100; }
+    .documentation_wrapper .documentation_content h2 {
+      font-size: 1.5rem;
+      font-weight: 100; }
 
 .browser {
   border-radius: .35rem;
@@ -1576,3 +1585,10 @@ footer {
     pointer-events: none; }
     .breadcrumbs .crumb:last-child:after {
       content: ""; }
+
+.example-box {
+  background: #282c34;
+  color: #f8f8f8;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px; }

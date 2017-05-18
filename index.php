@@ -1,9 +1,10 @@
 <?php
-  $gridderFileName = "gridder-1.4.1.css";
-  $gridderFilePath = "/gridder/compiled/gridder-1.4.1.css";
+  $root = $_SERVER['SERVER_NAME'];
+  $gridderFileName = 'gridder-1.4.1.css';
+  $gridderFilePath = '//'.$root.'/gridder/compiled/gridder-1.4.1.css';
 ?>
 
-<?php include_once('inc/header.php') ?>
+<?php include_once('inc/header.php'); ?>
 
   <!--Content-->
   <header class="header">

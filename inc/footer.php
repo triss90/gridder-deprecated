@@ -29,10 +29,10 @@
 <a href="https://www.gridder.io/">https://www.gridder.io/</a>
 <!--Content End-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="../assets/js/highlight.pack.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="//<?php echo $root; ?>/assets/js/highlight.pack.js"></script>
 <script src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>
-<script src="../assets/js/functions.js"></script>
+<script src="//<?php echo $root; ?>/assets/js/functions.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -6,7 +6,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="icon" type="image/ico" href="../assets/img/favicon.ico">
+  <link rel="stylesheet" href="//<?php echo $root; ?>/assets/css/style.css">
+  <link rel="icon" type="image/ico" href="//<?php echo $root; ?>/assets/img/favicon.ico">
 </head>
 <body>
