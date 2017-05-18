@@ -25,24 +25,24 @@
   <hr>
 
   <h2 class="title">Alignment</h2>
-  <a href="#" class="link">Start</a>
-  <a href="#" class="link">Center</a>
-  <a href="#" class="link">End</a>
-  <a href="#" class="link">Top</a>
-  <a href="#" class="link">Middel</a>
-  <a href="#" class="link">Bottom</a>
+  <a href="/docs/alignment/start/" class="link">Start</a>
+  <a href="/docs/alignment/end/" class="link">Center</a>
+  <a href="/docs/alignment/top/" class="link">End</a>
+  <a href="/docs/alignment/top/" class="link">Top</a>
+  <a href="/docs/alignment/middle/" class="link">Middel</a>
+  <a href="/docs/alignment/bottom/" class="link">Bottom</a>
 
   <hr>
 
   <h2 class="title">Distribution</h2>
-  <a href="#" class="link">Between</a>
-  <a href="#" class="link">Around</a>
+  <a href="/docs/distribution/between/" class="link">Between</a>
+  <a href="/docs/distribution/around/" class="link">Around</a>
 
   <hr>
 
   <h2 class="title">Reordering</h2>
-  <a href="#" class="link">Reverse</a>
-  <a href="#" class="link">First</a>
-  <a href="#" class="link">Last</a>
+  <a href="/docs/reordering/reverse/" class="link">Reverse</a>
+  <a href="/docs/reordering/first/" class="link">First</a>
+  <a href="/docs/reordering/last/" class="link">Last</a>
 
 </nav>
