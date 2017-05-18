@@ -1602,3 +1602,8 @@ footer {
     @media (max-width: 64em) {
       .example-box .example-box-nested.last-child {
         margin-bottom: 0; } }
+
+.example-row {
+  background: #5533FF;
+  padding-top: 1rem;
+  min-height: 200px; }

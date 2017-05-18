@@ -26,8 +26,8 @@
 
   <h2 class="title">Alignment</h2>
   <a href="/docs/alignment/start/" class="link">Start</a>
-  <a href="/docs/alignment/end/" class="link">Center</a>
-  <a href="/docs/alignment/top/" class="link">End</a>
+  <a href="/docs/alignment/center/" class="link">Center</a>
+  <a href="/docs/alignment/end/" class="link">End</a>
   <a href="/docs/alignment/top/" class="link">Top</a>
   <a href="/docs/alignment/middle/" class="link">Middel</a>
   <a href="/docs/alignment/bottom/" class="link">Bottom</a>
