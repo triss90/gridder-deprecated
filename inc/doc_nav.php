@@ -18,8 +18,8 @@
   <hr>
 
   <h2 class="title">Basic Grid</h2>
-  <a href="#" class="link">Auto Grid</a>
-  <a href="#" class="link">Offsets</a>
+  <a href="/docs/auto-grid/" class="link">Auto Grid</a>
+  <a href="/offsets/" class="link">Offsets</a>
   <a href="#" class="link">Nesting</a>
 
   <hr>
