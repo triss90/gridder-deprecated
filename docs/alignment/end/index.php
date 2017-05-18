@@ -30,7 +30,7 @@
         <div class="tiny">
           <h1>Alignment (End)</h1>
           <p>Gridder allows you to align columns as you see fit.
-            With <span class="label inline dark">.end-</span> you can force a column to the end of a row.</p>
+            With <span class="label inline dark">.end-</span> you can force columns to the end of a row.</p>
 
           <div class="row end-tiny example-row">
             <div class="tiny-6">

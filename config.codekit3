@@ -292,6 +292,12 @@
 		"oAP": "\/docs\/alignment\/start\/index.php",
 		"oF": 0
 		},
+	"\/docs\/alignment\/top\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/alignment\/top\/index.php",
+		"oF": 0
+		},
 	"\/docs\/auto-grid\/index.php": {
 		"ft": 8192,
 		"oA": 2,
