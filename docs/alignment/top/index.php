@@ -32,12 +32,6 @@
           <p>Gridder allows you to align columns as you see fit.
             With <span class="label inline dark">.top-</span> you can force columns to the top of a row.</p>
 
-          <div class="row top-tiny example-row">
-            <div class="tiny-6">
-              <div class="example-box">Top</div>
-            </div>
-          </div>
-
           <pre><code class="html codeblock">
 &#x3C;div class=&#x22;row top-tiny&#x22;&#x3E;
   &#x3C;div class=&#x22;tiny-6&#x22;&#x3E;
@@ -45,6 +39,13 @@
   &#x3C;/div&#x3E;
 &#x3C;/div&#x3E;
           </code></pre>
+
+          <h2>Example</h2>
+          <div class="row top-tiny example-row">
+            <div class="tiny-6">
+              <div class="example-box">Top</div>
+            </div>
+          </div>
 
         </div>
 

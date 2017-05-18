@@ -1606,4 +1606,5 @@ footer {
 .example-row {
   background: #5533FF;
   padding-top: 1rem;
-  min-height: 200px; }
+  min-height: 350px;
+  border-radius: 5px; }
