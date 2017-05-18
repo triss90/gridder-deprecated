@@ -33,7 +33,7 @@
             <li><a href="/docs/alignment/center/">Center</a></li>
             <li><a href="/docs/alignment/end/">End</a></li>
             <li><a href="/docs/alignment/top/">Top</a></li>
-            <li><a href="/docs/alignment/middel/">Middel</a></li>
+            <li><a href="/docs/alignment/middle/">Middle</a></li>
             <li><a href="/docs/alignment/bottom/">Bottom</a></li>
           </ul>
         </div>
