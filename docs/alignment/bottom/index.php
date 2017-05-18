@@ -19,7 +19,7 @@
           <div class="breadcrumbs">
             <a href="/docs" class="crumb">Documentation</a>
             <a href="/docs/alignment" class="crumb">Alignment</a>
-            <a href="#0" class="crumb">Middle</a>
+            <a href="#0" class="crumb">Bottom</a>
           </div>
           <hr>
         </div>
@@ -28,20 +28,20 @@
       <div class="row">
 
         <div class="tiny">
-          <h1>Alignment (Middle)</h1>
+          <h1>Alignment (Bottom)</h1>
           <p>Gridder allows you to align columns as you see fit.
-            With <span class="label inline dark">.middle-</span> you can force columns to the middle of a row.</p>
+            With <span class="label inline dark">.bottom-</span> you can force columns to the bottom of a row.</p>
 
-          <div class="row middle-tiny example-row">
+          <div class="row bottom-tiny example-row">
             <div class="tiny-6">
-              <div class="example-box">Middle</div>
+              <div class="example-box">Bottom</div>
             </div>
           </div>
 
           <pre><code class="html codeblock">
-&#x3C;div class=&#x22;row middle-tiny&#x22;&#x3E;
+&#x3C;div class=&#x22;row bottom-tiny&#x22;&#x3E;
   &#x3C;div class=&#x22;tiny-6&#x22;&#x3E;
-    &#x3C;div class=&#x22;example-box&#x22;&#x3E;Middle&#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;example-box&#x22;&#x3E;Bottom&#x3C;/div&#x3E;
   &#x3C;/div&#x3E;
 &#x3C;/div&#x3E;
           </code></pre>
