@@ -2,6 +2,8 @@
   $root = $_SERVER['SERVER_NAME'];
   $gridderFileName = "gridder-1.4.1.css";
   $gridderFilePath = '//'.$root."/gridder/compiled/gridder-1.4.1.css";
+  $pageTitle = "Gridder - Syntax";
+  $pageDescription = "First, make sure to wrap your columns in a row element. Then specify your columns and stick your content inside.";
 ?>
 
 <?php include_once('../../inc/header.php') ?>

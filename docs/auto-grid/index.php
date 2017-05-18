@@ -2,6 +2,8 @@
   $root = $_SERVER['SERVER_NAME'];
   $gridderFileName = "gridder-1.4.1.css";
   $gridderFilePath = '//'.$root."/gridder/compiled/gridder-1.4.1.css";
+  $pageTitle = "Gridder - Auto Grid";
+  $pageDescription = "The flexbox grid is clever! You can add any number of columns to your rows without defining their width and let the grid figure it out";
 ?>
 
 <?php include_once('../../inc/header.php') ?>
@@ -45,7 +47,7 @@
         </div>
 
       </div>
-      
+
       <h2>Example</h2>
 
       <div class="row">

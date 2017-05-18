@@ -2,6 +2,8 @@
   $root = $_SERVER['SERVER_NAME'];
   $gridderFileName = "gridder-1.4.1.css";
   $gridderFilePath = '//'.$root."/gridder/compiled/gridder-1.4.1.css";
+  $pageTitle = "Gridder - Alignment - Start";
+  $pageDescription = "With Gridder you can force columns to the start of a row.";
 ?>
 
 <?php include_once('../../../inc/header.php') ?>

@@ -2,6 +2,8 @@
   $root = $_SERVER['SERVER_NAME'];
   $gridderFileName = "gridder-1.4.1.css";
   $gridderFilePath = '//'.$root."/gridder/compiled/gridder-1.4.1.css";
+  $pageTitle = "Gridder - Nesting";
+  $pageDescription = "Gridder can be nested as deep as you want";
 ?>
 
 <?php include_once('../../inc/header.php') ?>
