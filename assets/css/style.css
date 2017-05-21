@@ -1164,11 +1164,11 @@ html {
 
 body {
   font-size: 1em;
-  line-height: 1.25; }
+  line-height: 1.45; }
   @media (min-width: 43.75em) {
     body {
       font-size: 1em;
-      line-height: 1.375; } }
+      line-height: 1.675; } }
 
 body, h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5; }
@@ -1431,6 +1431,8 @@ a {
     .documentation_wrapper .documentation_content h2 {
       font-size: 1.5rem;
       font-weight: 100; }
+  .documentation_wrapper + footer {
+    padding: 40px 0; }
 
 .browser {
   border-radius: .35rem;
