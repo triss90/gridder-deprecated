@@ -1,3 +1,12 @@
+<!-- <button class="mobile-nav-toggle-wrapper">
+  <div class="mobile-nav-toggle"></div>
+</button> -->
+
+<div id="toggle">
+  <input type="checkbox">
+  <span></span>
+</div>
+
 <nav class="documentation_nav">
   <a href="/" class="logo">
     <svg id="gridder-logo" width="40px" height="40px" viewBox="0 0 315 313" xmlns="http://www.w3.org/2000/svg">

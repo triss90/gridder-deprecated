@@ -1,1 +1,1 @@
-$(document).ready(function(){hljs.initHighlightingOnLoad()});
+hljs.initHighlightingOnLoad();var trigger=document.querySelector("#toggle"),nav=document.querySelector(".documentation_nav");trigger.addEventListener("click",function(){nav.classList.toggle("active")});

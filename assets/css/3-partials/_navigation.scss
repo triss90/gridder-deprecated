@@ -3,6 +3,10 @@
   margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
+  @media(max-width: 46em) {
+    flex-wrap: wrap;
+    height: auto;
+  }
   .navigation-items {
     a {
       line-height: 64px;
@@ -12,10 +16,21 @@
       text-decoration: none;
       transition: all 150ms ease-in-out;
       border: 0;
+      @media(max-width: 46em) {
+        margin: 0 1rem;
+      }
       &:hover {
         color: rgba($color4,0.4);
         background: none;
       }
+    }
+    @media(max-width: 46em) {
+      width: 100%;
+      background: $color5;
+      margin: 2rem 0 0 0;
+      position: relative;
+      display: block;
+      text-align: center;
     }
   }
   .logo {
@@ -58,6 +73,11 @@
       path {
         transition: all 100ms ease-in-out;
       }
+    }
+    @media(max-width: 46em) {
+      width: 100%;
+      text-align: center;
+      margin: 2rem 0 0 0;
     }
   }
   @media(max-width: 48em) {

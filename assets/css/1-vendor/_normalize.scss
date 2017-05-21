@@ -11,6 +11,9 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+* {
+  box-sizing: border-box;
+}
 
 /**
  * Remove default margin.
@@ -18,6 +21,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* HTML5 display definitions

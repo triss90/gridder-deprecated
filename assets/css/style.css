@@ -13,11 +13,15 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
 
+* {
+  box-sizing: border-box; }
+
 /**
  * Remove default margin.
  */
 body {
-  margin: 0; }
+  margin: 0;
+  overflow-x: hidden; }
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -1154,9 +1158,6 @@ Author: Tristan White
     -ms-flex-order: 1;
     order: 1; } }
 
-body {
-  overflow-x: hidden; }
-
 html {
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
@@ -1238,6 +1239,10 @@ a {
   margin-bottom: 100px;
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 46em) {
+    .navigation {
+      flex-wrap: wrap;
+      height: auto; } }
   .navigation .navigation-items a {
     line-height: 64px;
     color: #f8f8f8;
@@ -1246,9 +1251,20 @@ a {
     text-decoration: none;
     transition: all 150ms ease-in-out;
     border: 0; }
+    @media (max-width: 46em) {
+      .navigation .navigation-items a {
+        margin: 0 1rem; } }
     .navigation .navigation-items a:hover {
       color: rgba(248, 248, 248, 0.4);
       background: none; }
+  @media (max-width: 46em) {
+    .navigation .navigation-items {
+      width: 100%;
+      background: #282c34;
+      margin: 2rem 0 0 0;
+      position: relative;
+      display: block;
+      text-align: center; } }
   .navigation .logo {
     margin-top: 12px;
     text-decoration: none;
@@ -1279,6 +1295,11 @@ a {
       overflow: visible; }
       .navigation .logo #gridder-logo path {
         transition: all 100ms ease-in-out; }
+    @media (max-width: 46em) {
+      .navigation .logo {
+        width: 100%;
+        text-align: center;
+        margin: 2rem 0 0 0; } }
   @media (max-width: 48em) {
     .navigation {
       margin-bottom: 0px; } }
@@ -1319,6 +1340,9 @@ a {
 
 #faq {
   padding: 100px 0; }
+  @media (max-width: 46em) {
+    #faq {
+      padding: 50px 0; } }
   #faq h2 {
     font-weight: 100; }
   #faq h3 {
@@ -1337,22 +1361,92 @@ a {
   .documentation_wrapper .documentation_inner {
     margin-right: auto;
     margin-left: auto;
-    display: flex; }
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
     @media (min-width: 48em) {
       .documentation_wrapper .documentation_inner {
         width: 46rem; } }
     @media (min-width: 64em) {
       .documentation_wrapper .documentation_inner {
-        width: 62rem; } }
+        width: 62rem;
+        box-shadow: none; } }
     @media (min-width: 75em) {
       .documentation_wrapper .documentation_inner {
         width: 73rem; } }
+  .documentation_wrapper #toggle {
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    display: block;
+    border: 0;
+    top: 30px;
+    left: 1.5rem;
+    z-index: 10; }
+    @media (min-width: 803px) {
+      .documentation_wrapper #toggle {
+        display: none; } }
+    .documentation_wrapper #toggle input {
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0;
+      cursor: pointer; }
+      .documentation_wrapper #toggle input:checked + span {
+        background: transparent; }
+        .documentation_wrapper #toggle input:checked + span:after {
+          transform: rotate(45deg) translate(-1px, -12px); }
+        .documentation_wrapper #toggle input:checked + span:before {
+          transform: rotate(-45deg) translate(-4px, 16px); }
+    .documentation_wrapper #toggle span {
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: #282c34;
+      margin-top: 10px;
+      transition: all 0.1s; }
+      .documentation_wrapper #toggle span:before, .documentation_wrapper #toggle span:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #282c34;
+        top: -12px;
+        transition: all 0.3s; }
+      .documentation_wrapper #toggle span:after {
+        top: 12px; }
   .documentation_wrapper .documentation_nav {
     min-height: 100vh;
     position: relative;
     width: 25%;
     min-width: 250px;
     padding: 2rem 0.5rem; }
+    .documentation_wrapper .documentation_nav.active {
+      display: block !important;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 9;
+      background: #f8f8f8;
+      text-align: center;
+      overflow: scroll; }
+      .documentation_wrapper .documentation_nav.active .link {
+        color: #282c34;
+        font-size: 1.3rem; }
+        .documentation_wrapper .documentation_nav.active .link:hover {
+          color: #05D5FF; }
+      .documentation_wrapper .documentation_nav.active .title {
+        color: #5533FF;
+        font-size: 1.5rem; }
+      .documentation_wrapper .documentation_nav.active hr {
+        margin: 0.5rem; }
+    @media (max-width: 64em) {
+      .documentation_wrapper .documentation_nav {
+        display: none; } }
     .documentation_wrapper .documentation_nav .logo {
       margin-bottom: 3rem;
       text-decoration: none;
@@ -1410,6 +1504,9 @@ a {
     min-height: 100vh;
     position: relative;
     padding: 2rem 1rem; }
+    @media (max-width: 64em) {
+      .documentation_wrapper .documentation_content {
+        width: 100%; } }
     .documentation_wrapper .documentation_content:after {
       content: "";
       position: absolute;
@@ -1421,6 +1518,9 @@ a {
       z-index: 0;
       background: #f8f8f8;
       width: 10000%; }
+      @media (max-width: 64em) {
+        .documentation_wrapper .documentation_content:after {
+          display: none; } }
     .documentation_wrapper .documentation_content hr {
       height: 1px;
       border: 0;
@@ -1536,6 +1636,9 @@ a {
   height: 1px;
   margin: 100px 0;
   background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%); }
+  @media (max-width: 46em) {
+    .devider {
+      margin: 50px 0; } }
 
 .label {
   background: rgba(40, 44, 52, 0.2);
@@ -1574,6 +1677,9 @@ footer {
   text-transform: uppercase;
   color: #acabab;
   border: 0; }
+  @media (max-width: 64em) {
+    .breadcrumbs .crumb {
+      font-size: 0.65rem; } }
   .breadcrumbs .crumb:hover {
     color: #05D5FF;
     background: none; }
@@ -1581,6 +1687,9 @@ footer {
     content: "/";
     padding: 0 .8rem;
     color: #acabab; }
+    @media (max-width: 64em) {
+      .breadcrumbs .crumb:after {
+        padding: 0 .3rem; } }
   .breadcrumbs .crumb:last-child {
     color: #282c34;
     font-weight: 700;

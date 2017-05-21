@@ -14,7 +14,7 @@
 
     <div class="documentation_content">
 
-      <div class="row">
+      <div class="row end-tiny">
         <div class="tiny">
           <div class="breadcrumbs">
             <a href="/docs" class="crumb">Documentation</a>

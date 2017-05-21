@@ -3,4 +3,7 @@
   height:1px;
   margin: 100px 0;
   background-image:linear-gradient(-90deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.50) 50%, rgba(255,255,255,0) 100%);
+  @media(max-width: 46em) {
+    margin: 50px 0;
+  }
 }

@@ -105,7 +105,7 @@
   <section id="getting-started">
     <div class="container">
       <div class="row">
-        <div class="medium-12">
+        <div class="tiny-12">
           <div class="label">Getting started</div>
           <h2>Quick installation guide</h2>
           <p>Simply <a href="<?php echo $gridderFilePath; ?>" download>download</a> gridder and add it to your head, like this:</p>
@@ -143,14 +143,14 @@ npm install gridder
       </div>
       <hr>
       <div class="row">
-        <div class="medium-5">
+        <div class="tiny-12 small-12 medium-5 large-5">
           <h3>What about browser support ?</h3>
           <p>Gridder works in all modern browsers. <span class="label inline dark">IE10+</span> <span class="label inline dark">Edge</span> <span class="label inline dark">Firefox</span> <span class="label inline dark">Chrome</span> <span class="label inline dark">Safari</span> <span class="label inline dark">Opera</span></p>
           <p class="ciu_embed" data-feature="flexbox" data-periods="future_1,current,past_1,past_2">
             <a href="http://caniuse.com/#feat=flexbox">Can I Use flexbox?</a> Data on support for the flexbox feature across the major browsers from caniuse.com.
           </p>
         </div>
-        <div class="medium-6 medium-offset-1">
+        <div class="tiny-12 small-12 medium-6 medium-offset-1 large-6 large-offset-1">
           <h3>What is in store for Gridder in the future ?</h3>
           <p>Were currently working on a new version of gridder built entirely on <span class="label inline dark">CSS Grid Layout</span>. This build, however, will remain experimental untill the it is fully <a href="http://caniuse.com/#search=gri" target="_blank">supported</a> in all major browser</p>
 
