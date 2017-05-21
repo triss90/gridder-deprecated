@@ -2,7 +2,7 @@
   $root = $_SERVER['SERVER_NAME'];
   $gridderFileName = "gridder-1.4.1.css";
   $gridderFilePath = '//'.$root."/gridder/compiled/gridder-1.4.1.css";
-  $pageTitle = "Gridder - Alignment - Middle";
+  $pageTitle = "Gridder - Distribution - Around";
   $pageDescription = "With Gridder you can force columns to the middle of a row.";
 ?>
 

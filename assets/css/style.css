@@ -1593,7 +1593,10 @@ footer {
   color: #f8f8f8;
   padding: 1rem;
   margin-bottom: 1rem;
-  border-radius: 5px; }
+  border-radius: 5px;
+  text-align: center; }
+  .example-box.highlight {
+    font-weight: bold; }
   .example-box .example-box-nested {
     background: #3e4451;
     padding: 1rem;

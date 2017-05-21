@@ -4,6 +4,10 @@
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 5px;
+  text-align: center;
+  &.highlight {
+    font-weight: bold;
+  }
 
   .example-box-nested {
     background: lighten($color5, 10%);

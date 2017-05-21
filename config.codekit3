@@ -358,6 +358,30 @@
 		"oAP": "\/docs\/offsets\/index.php",
 		"oF": 0
 		},
+	"\/docs\/reordering\/first\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/reordering\/first\/index.php",
+		"oF": 0
+		},
+	"\/docs\/reordering\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/reordering\/index.php",
+		"oF": 0
+		},
+	"\/docs\/reordering\/last\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/reordering\/last\/index.php",
+		"oF": 0
+		},
+	"\/docs\/reordering\/reverse\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/reordering\/reverse\/index.php",
+		"oF": 0
+		},
 	"\/docs\/syntax\/index.php": {
 		"ft": 8192,
 		"oA": 2,
