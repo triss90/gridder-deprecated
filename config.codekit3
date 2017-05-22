@@ -704,6 +704,16 @@
 		"oAP": "\/docs\/syntax\/index.php",
 		"oF": 0
 		},
+	"\/gridder\/1.4.1\/gridder.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/gridder\/1.4.1\/gridder.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/gridder\/_gridder-1.4.1.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -712,20 +722,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/gridder\/compiled\/gridder-1.4.1.css",
+		"oAP": "\/gridder\/1.4.1\/gridder.min.css",
 		"oF": 3,
 		"oS": 3,
 		"uL": 1
-		},
-	"\/gridder\/compiled\/gridder-1.4.1.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/gridder\/compiled\/gridder-1.4.1-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/inc\/doc_nav.php": {
 		"ft": 8192,
