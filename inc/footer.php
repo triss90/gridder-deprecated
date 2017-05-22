@@ -22,11 +22,6 @@
   </div>
 
 </footer>
-<a href="https://www.iotacss.com/">https://www.iotacss.com/</a> ||
-<a href="https://mothereff.in/html-entities">https://mothereff.in/html-entities</a> ||
-<a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md">https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md</a> ||
-<a href="https://docs.npmjs.com/getting-started/publishing-npm-packages">https://docs.npmjs.com/getting-started/publishing-npm-packages</a> ||
-<a href="https://www.gridder.io/">https://www.gridder.io/</a>
 <!--Content End-->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
