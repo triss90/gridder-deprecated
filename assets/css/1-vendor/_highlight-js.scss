@@ -112,6 +112,11 @@ pre {
       content:"LINK";
     }
   }
+  &.cmd {
+    &:before {
+      content:"CMD";
+    }
+  }
   &:before {
     content: "HTML";
     position: absolute;

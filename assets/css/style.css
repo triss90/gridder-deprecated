@@ -457,6 +457,8 @@ pre {
   text-align: left !important; }
   .codeblock.http:before {
     content: "LINK"; }
+  .codeblock.cmd:before {
+    content: "CMD"; }
   .codeblock:before {
     content: "HTML";
     position: absolute;
