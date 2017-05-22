@@ -126,10 +126,6 @@
           <pre><code class="html codeblock http">
 https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.1.0/3Dmol-min.js
           </code></pre>
-          <br><p>Gridder is on <strong>NPM:</strong></p>
-          <pre><code class="html codeblock cmd">
-npm install gridder
-          </code></pre>
         </div>
       </div>
     </div>

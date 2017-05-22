@@ -1360,11 +1360,13 @@ a {
 
 .documentation_wrapper {
   background: linear-gradient(-180deg, #5533FF 30%, #05D5FF 100%); }
+  @media (max-width: 64em) {
+    .documentation_wrapper {
+      background: #f8f8f8; } }
   .documentation_wrapper .documentation_inner {
     margin-right: auto;
     margin-left: auto;
-    display: flex;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+    display: flex; }
     @media (min-width: 48em) {
       .documentation_wrapper .documentation_inner {
         width: 46rem; } }
@@ -1384,7 +1386,7 @@ a {
     top: 30px;
     left: 1.5rem;
     z-index: 10; }
-    @media (min-width: 803px) {
+    @media (min-width: 64em) {
       .documentation_wrapper #toggle {
         display: none; } }
     .documentation_wrapper #toggle input {

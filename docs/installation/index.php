@@ -16,7 +16,7 @@
 
     <div class="documentation_content">
 
-      <div class="row end-tiny">
+      <div class="row end-tiny start-medium">
         <div class="tiny">
           <div class="breadcrumbs">
             <a href="/docs" class="crumb">Documentation</a>
@@ -47,10 +47,6 @@
           <br><p>Gridder is also available through <strong>CDNJS:</strong></p>
           <pre><code class="html codeblock http">
 https://cdnjs.cloudflare.com/ajax/libs/3Dmol/1.1.0/3Dmol-min.js
-          </code></pre>
-          <br><p>Gridder is on <strong>NPM:</strong></p>
-          <pre><code class="html codeblock http">
-npm install gridder
           </code></pre>
         </div>
 

@@ -1,11 +1,14 @@
 .documentation_wrapper {
   background: linear-gradient(-180deg, $color1 30%, $color2 100%);
+  @media(max-width: 64em) {
+    background: $color4;
+  }
 
   .documentation_inner {
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    // box-shadow: 0 0 10px rgba(0,0,0,0.3);
     @media(min-width: 48em) {
       width: 46rem;
     }
@@ -26,7 +29,9 @@
     top: 30px;
     left: 1.5rem;
     z-index: 10;
-    @media(min-width: 803px) {
+    // background: $color4;
+    // // padding: 7px 5px 0 5px;
+    @media(min-width: 64em) {
       display: none;
     }
     input {
