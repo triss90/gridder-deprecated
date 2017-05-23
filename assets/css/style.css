@@ -1541,6 +1541,9 @@ a {
 .browser {
   border-radius: .35rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+  @media (max-width: 64em) {
+    .browser {
+      display: none; } }
   .browser .browser-header {
     background: #ebebeb;
     border-radius: .35rem .35rem 0 0;

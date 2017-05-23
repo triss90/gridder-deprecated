@@ -1,6 +1,9 @@
 .browser {
   border-radius: .35rem;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  @media(max-width: 64em) {
+    display: none;
+  }
   .browser-header {
     background: darken($color4, 5%);
     border-radius: .35rem .35rem 0 0;

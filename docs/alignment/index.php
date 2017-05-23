@@ -1,8 +1,8 @@
 <?php
-  $root = $_SERVER['SERVER_NAME'];
-  $gridderFileName = "gridder-1.4.1.css";
-  $gridderFilePath = '//'.$root."/gridder/compiled/gridder-1.4.1.css";
+  $pageTitle = "Gridder - Alignment";
+  $pageDescription = "You can align gridders grid in clever ways to achieve the layout you want";
 ?>
+
 
 <?php include_once('../../inc/header.php') ?>
 

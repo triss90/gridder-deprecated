@@ -1,3 +1,9 @@
+<?php
+$root = $_SERVER['SERVER_NAME'];
+$gridderFileName = 'gridder-1.4.1.css';
+$gridderFilePath = '//'.$root.'/gridder/1.4.1/gridder.min.css';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
