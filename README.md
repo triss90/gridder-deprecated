@@ -1,5 +1,6 @@
 # Gridder CSS
 
+Visit [gridder.io](https://gridder.io "Gridder CSS homepage")
 
 ### Installation guide
 Simply download and add Gridder CSS file to your head, like this:
@@ -46,6 +47,24 @@ First, make sure to wrap your columns in a row element. Then specify your column
   <div class="small-12 medium-6 large-4">
     This spans 12/12 columns on small screens,
     6/12 on medium screens and 4/4 on large screens
+  </div>
+</div>
+```
+
+
+### Auto Grid
+The flexbox grid is clever! You can add any number of columns to your rows without defining their width and let the grid figure it out.
+
+```html
+<div class="row">
+  <div class="tiny">
+    4/12 - auto
+  </div>
+  <div class="tiny">
+    4/12 - auto
+  </div>
+  <div class="tiny">
+    4/12 - auto
   </div>
 </div>
 ```
