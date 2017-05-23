@@ -24,7 +24,6 @@
 </footer>
 <!--Content End-->
 
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 <script src="//<?php echo $root; ?>/assets/js/highlight.pack.js"></script>
 <script src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>
 <script src="//<?php echo $root; ?>/assets/js/functions.js"></script>
