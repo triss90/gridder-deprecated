@@ -423,6 +423,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/blog.png": {
+		"ft": 32768,
+		"iS": 2538,
+		"oA": 0,
+		"oAP": "\/assets\/img\/blog.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -483,6 +494,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/landingpage.png": {
+		"ft": 32768,
+		"iS": 1671,
+		"oA": 0,
+		"oAP": "\/assets\/img\/landingpage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/manifest.json": {
 		"ft": 524288,
@@ -556,6 +578,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/store.png": {
+		"ft": 32768,
+		"iS": 2267,
+		"oA": 0,
+		"oAP": "\/assets\/img\/store.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/js\/functions.js": {
 		"ft": 64,

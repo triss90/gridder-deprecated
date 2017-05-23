@@ -23,7 +23,7 @@
         </a>
         <div class="navigation-items">
           <a href="/docs/installation/">Installation guide</a>
-          <a href="/examples">Examples</a>
+          <a href="/docs/examples">Examples</a>
           <a href="/docs/">Docs</a>
         </div>
       </nav>

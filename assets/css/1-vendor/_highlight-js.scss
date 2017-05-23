@@ -107,6 +107,7 @@ pre {
   position: relative;
   overflow-y: visible;
   text-align: left !important;
+  max-height: 500px;
   &.http {
     &:before {
       content:"LINK";
