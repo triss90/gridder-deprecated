@@ -4,8 +4,7 @@
 ### Installation guide
 Simply download and add Gridder CSS file to your head, like this:
 
-```
-
+```html
 // index.html
 <html>
   <head>
