@@ -33,7 +33,7 @@
           <h1 class="headline">Gridder - The simple grid system based on Flexbox.</h1>
           <p class="subline">Gridder's fluid grid and breakpoints enable endless combinations of column sizes, offsets, allignments and viewport widths.</p>
           <a href="<?php echo $gridderFilePath; ?>" download class="button primary">Download Gridder</a>
-          <a href="#0" class="button">Visit Github</a>
+          <a href="https://github.com/triss90/gridder" target="_blank" class="button">Visit Github</a>
         </div>
         <div class="tiny-12 small-12 medium-6 medium-offset-0 large-5 large-offset-1">
           <div class="browser">
