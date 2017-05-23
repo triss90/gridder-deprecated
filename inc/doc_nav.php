@@ -1,7 +1,3 @@
-<!-- <button class="mobile-nav-toggle-wrapper">
-  <div class="mobile-nav-toggle"></div>
-</button> -->
-
 <div id="toggle">
   <input type="checkbox">
   <span></span>
@@ -21,37 +17,38 @@
   </a>
 
   <h2 class="title">Introduction</h2>
-  <a href="/docs" class="link">Syntax</a>
-  <a href="/docs/installation/" class="link">Installation</a>
+  <a href="/docs" class="link" title="Learn the basic Gridder syntax">Syntax</a>
+  <a href="/docs/installation/" class="link" title="Learn how to install Gridder">Installation</a>
+  <a href="/docs/examples/" class="link" title="View som examples using Gridder">Examples</a>
 
   <hr>
 
   <h2 class="title">Basic Grid</h2>
-  <a href="/docs/auto-grid/" class="link">Auto Grid</a>
-  <a href="/docs/offsets/" class="link">Offsets</a>
-  <a href="/docs/nesting/" class="link">Nesting</a>
+  <a href="/docs/auto-grid/" class="link" title="Use Gridder automatic grid">Auto Grid</a>
+  <a href="/docs/offsets/" class="link" tilte="Learn how to use Gridder's offsets">Offsets</a>
+  <a href="/docs/nesting/" class="link" tilte="Learn how to nest Gridder">Nesting</a>
 
   <hr>
 
   <h2 class="title">Alignment</h2>
-  <a href="/docs/alignment/start/" class="link">Start</a>
-  <a href="/docs/alignment/center/" class="link">Center</a>
-  <a href="/docs/alignment/end/" class="link">End</a>
-  <a href="/docs/alignment/top/" class="link">Top</a>
-  <a href="/docs/alignment/middle/" class="link">Middle</a>
-  <a href="/docs/alignment/bottom/" class="link">Bottom</a>
+  <a href="/docs/alignment/start/" class="link" tilte="Learn how to align Gridder to the start">Start</a>
+  <a href="/docs/alignment/center/" class="link" tilte="Learn how to align Gridder to the center">Center</a>
+  <a href="/docs/alignment/end/" class="link" tilte="Learn how to align Gridder to the end">End</a>
+  <a href="/docs/alignment/top/" class="link" tilte="Learn how to align Gridder to the top">Top</a>
+  <a href="/docs/alignment/middle/" class="link" tilte="Learn how to align Gridder to the middle">Middle</a>
+  <a href="/docs/alignment/bottom/" class="link" tilte="Learn how to align Gridder to the bottom">Bottom</a>
 
   <hr>
 
   <h2 class="title">Distribution</h2>
-  <a href="/docs/distribution/between/" class="link">Between</a>
-  <a href="/docs/distribution/around/" class="link">Around</a>
+  <a href="/docs/distribution/between/" class="link" tilte="Learn how to distribute Gridder's Grid">Between</a>
+  <a href="/docs/distribution/around/" class="link" tilte="Learn how to distribute Gridder's Grid">Around</a>
 
   <hr>
 
   <h2 class="title">Reordering</h2>
-  <a href="/docs/reordering/reverse/" class="link">Reverse</a>
-  <a href="/docs/reordering/first/" class="link">First</a>
-  <a href="/docs/reordering/last/" class="link">Last</a>
+  <a href="/docs/reordering/reverse/" class="link" tilte="Learn how to reorder Gridder's Grid">Reverse</a>
+  <a href="/docs/reordering/first/" class="link" tilte="Learn how to reorder Gridder's Grid">First</a>
+  <a href="/docs/reordering/last/" class="link" tilte="Learn how to reorder Gridder's Grid">Last</a>
 
 </nav>
