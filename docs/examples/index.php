@@ -34,21 +34,21 @@
 
       <div class="row">
         <div class="tiny-12 small-12 medium-4 large-4">
-          <a href="/docs/examples/1/" title="Blog layout example" class="box">
+          <a href="/docs/examples/1/" title="Blog layout example" class="box-2">
             <span>Blog</span>
             <img src="/assets/img/blog.png" alt="Blog layout example">
           </a>
         </div>
 
         <div class="tiny-12 small-12 medium-4 large-4">
-          <a href="/docs/examples/2/" title="Landingpage layout example" class="box">
+          <a href="/docs/examples/2/" title="Landingpage layout example" class="box-2">
             <span>Landingpage</span>
             <img src="/assets/img/landingpage.png" alt="Landingpage layout example">
           </a>
         </div>
 
         <div class="tiny-12 small-12 medium-4 large-4">
-          <a href="/docs/examples/3/" title="Store layout example" class="box">
+          <a href="/docs/examples/3/" title="Store layout example" class="box-2">
             <span>Store</span>
             <img src="/assets/img/store.png" alt="Store layout example">
           </a>
