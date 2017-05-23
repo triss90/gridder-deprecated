@@ -121,7 +121,7 @@
           <p>Remember to add <span class="label inline dark">&#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1&#x22;&#x3E;</span> to the head aswell, to make sure the site scales correctly</p>
           <br><p>Gridder is also available through this <strong>CDN:</strong></p>
           <pre><code class="html codeblock http">
-https://cdn.rawgit.com/triss90/gridder_v4/72b7f842/gridder/1.4.1/gridder.min.css
+https://cdn.rawgit.com/triss90/gridder/714e56a6/gridder/1.4.1/gridder.min.css
           </code></pre>
         </div>
       </div>
