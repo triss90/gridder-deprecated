@@ -790,6 +790,12 @@
 		"oAP": "\/inc\/doc_nav.php",
 		"oF": 0
 		},
+	"\/inc\/footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/footer.php",
+		"oF": 0
+		},
 	"\/inc\/header.php": {
 		"ft": 8192,
 		"oA": 2,

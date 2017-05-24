@@ -17,7 +17,7 @@
         <div class="tiny">
           <div class="breadcrumbs">
             <a href="/docs" class="crumb">Documentation</a>
-            <a href="/docs/Reordering" class="crumb">Reordering</a>
+            <a href="/docs/reordering" class="crumb">Reordering</a>
             <a href="#0" class="crumb">First</a>
           </div>
           <hr>
