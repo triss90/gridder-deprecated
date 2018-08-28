@@ -122,7 +122,7 @@
           <p>Remember to add <span class="label inline dark">&#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1&#x22;&#x3E;</span> to the head aswell, to make sure the site scales correctly</p>
           <br><p>Gridder is also available through this <strong>jsdelivr:</strong></p>
           <pre><code class="html codeblock http">
-https://cdn.jsdelivr.net/npm/gridder-css@1.5.0/gridder.min.css
+https://cdn.jsdelivr.net/npm/gridder-css@1.5.1/gridder.min.css
           </code></pre>
 
             <br>
