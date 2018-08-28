@@ -6,3 +6,4 @@
 .idea/vcs.xml
 .idea/workspace.xml
 config.codekit3
+*.codekit3
