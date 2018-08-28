@@ -28,7 +28,7 @@ $pageDescription = "Version 1.4.2";
                 <div class="tiny">
                     <h1>Version 1.4.2 news and changes</h1>
                     <ul>
-                        <li>Added the Gridder library to NPM. You can now install and maintain gridder using <span class="label inline dark">npm install gridder-css</span></li>
+                        <li>Added the Gridder library to <a href="https://www.npmjs.com/package/gridder-css" target="_blank">NPM</a>. You can now install and maintain gridder using <span class="label inline dark">npm install gridder-css</span></li>
                         <li>Added Gridder to the open source CDN <a href="https://www.jsdelivr.com/" target="_blank" title="Open Source CDN - free, fast, and reliable">jsDelivr</a><br>
                             <code class="html codeblock http hljs xml"><
                                 https://cdn.jsdelivr.net/npm/gridder-css@1.4.2/gridder.min.css

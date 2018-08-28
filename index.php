@@ -126,7 +126,7 @@ https://cdn.jsdelivr.net/npm/gridder-css@1.5.0/gridder.min.css
           </code></pre>
 
             <br>
-            <p>You can also add Gridder with <strong>NPM:</strong></p>
+            <p>You can also add Gridder with <strong><a href="https://www.npmjs.com/package/gridder-css" target="_blank">NPM</a>:</strong></p>
             <pre><code class="html codeblock cmd">
 npm install gridder-css
           </code></pre>
