@@ -24,7 +24,7 @@
         <div class="navigation-items">
           <a href="/docs/installation/">Installation guide</a>
           <a href="/docs/examples">Examples</a>
-          <a href="/changelog">Changelog</a>
+          <a href="/changelog">Changes</a>
           <a href="/docs/">Docs</a>
         </div>
       </nav>
