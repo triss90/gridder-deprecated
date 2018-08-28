@@ -24,6 +24,7 @@
         <div class="navigation-items">
           <a href="/docs/installation/">Installation guide</a>
           <a href="/docs/examples">Examples</a>
+          <a href="/changelog">Changelog</a>
           <a href="/docs/">Docs</a>
         </div>
       </nav>
@@ -119,9 +120,15 @@
 &#x3C;/html&#x3E;
           </code></pre>
           <p>Remember to add <span class="label inline dark">&#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1&#x22;&#x3E;</span> to the head aswell, to make sure the site scales correctly</p>
-          <br><p>Gridder is also available through this <strong>CDN:</strong></p>
+          <br><p>Gridder is also available through this <strong>jsdelivr:</strong></p>
           <pre><code class="html codeblock http">
-https://cdn.rawgit.com/triss90/gridder/714e56a6/gridder/1.4.1/gridder.min.css
+https://cdn.jsdelivr.net/npm/gridder-css@1.5.0/gridder.min.css
+          </code></pre>
+
+            <br>
+            <p>You can also add Gridder with <strong>NPM:</strong></p>
+            <pre><code class="html codeblock cmd">
+npm install gridder-css
           </code></pre>
         </div>
       </div>

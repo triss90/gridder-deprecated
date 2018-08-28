@@ -7,3 +7,5 @@
 .idea/workspace.xml
 config.codekit3
 *.codekit3
+.idea/deployment.xml
+.idea/webServers.xml

@@ -1,2 +1,2 @@
 <?php
-header('location: /changelog/1.4.3');
+header('location: /changelog/1.5.0');

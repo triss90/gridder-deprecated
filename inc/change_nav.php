@@ -17,7 +17,7 @@
     </a>
 
     <h2 class="title">Changelog</h2>
-    <a href="/changelog/1.4.3" class="link" title="Version 1.4.1">1.4.3</a>
+    <a href="/changelog/1.5.0" class="link" title="Version 1.5.0">1.5.0</a>
     <a href="/changelog/1.4.2" class="link" title="Version 1.4.1">1.4.2</a>
     <a href="/changelog/1.4.1" class="link" title="Version 1.4.1">1.4.1</a>
 

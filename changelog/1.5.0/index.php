@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Gridder - Version 1.4.3";
-$pageDescription = "Version 1.4.3";
+$pageTitle = "Gridder - Version 1.5.0";
+$pageDescription = "Version 1.5.0";
 ?>
 
 <?php include_once('../../inc/header.php') ?>
@@ -17,7 +17,7 @@ $pageDescription = "Version 1.4.3";
                 <div class="tiny">
                     <div class="breadcrumbs">
                         <a href="/changelog" class="crumb">Changelog</a>
-                        <a href="#0" class="crumb">Version 1.4.3</a>
+                        <a href="#0" class="crumb">Version 1.5.0</a>
                     </div>
                     <hr>
                 </div>
@@ -26,11 +26,11 @@ $pageDescription = "Version 1.4.3";
             <div class="row">
 
                 <div class="tiny">
-                    <h1>Version 1.4.3 news and changes</h1>
+                    <h1>Version 1.5.0 news and changes</h1>
                     <ul>
                         <li>Added flexible <a href="https://gridder.io/docs/masonry/" title="Masonry Grid">masonry grid</a> support</li>
                     </ul>
-                    <br><a href="/gridder/1.4.3/gridder.min.css" download class="button primary">Download v1.4.3</a>
+                    <br><a href="/gridder/1.5.0/gridder.min.css" download class="button primary">Download v1.5.0</a>
                 </div>
 
             </div>

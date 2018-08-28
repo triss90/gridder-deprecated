@@ -2,7 +2,7 @@
 Name: Gridder.io
 Description: Flexbox Grid Framework
 Author URI: https://gridder.io/
-Version: 1.4.1
+Version: 1.5.0
 Author: Tristan White
 */
 
@@ -941,5 +941,35 @@ Author: Tristan White
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
+  }
+}
+
+.masonry {
+  display: block;
+  column-gap: 0.5rem;
+}
+.masonry > * {
+  width: 100%;
+  max-width: none;
+  display: inline-block;
+}
+@media only screen and (min-width: 48em) {
+  .masonry  {
+    column-count: 1;
+  }
+}
+@media only screen and (min-width: 56em) {
+  .masonry  {
+    column-count: 2;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .masonry  {
+    column-count: 3;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .masonry  {
+    column-count: 4;
   }
 }

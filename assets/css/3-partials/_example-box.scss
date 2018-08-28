@@ -8,7 +8,27 @@
   &.highlight {
     font-weight: bold;
   }
-
+  &.h1 {
+    height: 100px;
+  }
+  &.h2 {
+    height: 200px;
+  }
+  &.h3 {
+    height: 300px;
+  }
+  &.h4 {
+    height: 400px;
+  }
+  &.h5 {
+    height: 500px;
+  }
+  &.h6 {
+    height: 600px;
+  }
+  &.h7 {
+    height: 700px;
+  }
   .example-box-nested {
     background: lighten($color5, 10%);
     padding: 1rem;
@@ -57,14 +77,14 @@
     text-transform: uppercase;
   }
   &:hover {
+    transform: translateY(-2px);
     box-shadow: 0 0 15px rgba(0,0,0,0.25);
     background: none;
     color: $color5;
-
-    img {
-      transform: scale(1.25);
-      filter: blur(0px);
-    }
+    //img {
+    //  transform: scale(1.25);
+    //  filter: blur(0px);
+    //}
   }
 }
 

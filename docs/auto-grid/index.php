@@ -45,7 +45,7 @@
 
       </div>
 
-      <h2>Example</h2>
+
 
       <div class="row">
         <div class="tiny">

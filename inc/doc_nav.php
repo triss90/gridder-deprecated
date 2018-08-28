@@ -27,6 +27,7 @@
   <a href="/docs/auto-grid/" class="link" title="Use Gridder automatic grid">Auto Grid</a>
   <a href="/docs/offsets/" class="link" tilte="Learn how to use Gridder's offsets">Offsets</a>
   <a href="/docs/nesting/" class="link" tilte="Learn how to nest Gridder">Nesting</a>
+  <a href="/docs/masonry/" class="link" tilte="Learn all about masonry grid with Gridder">Masonry</a>
 
   <hr>
 

@@ -4,11 +4,24 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "188BB2FF-D974-451B-BDAA-BB3522F7339E"
+		"uuidString": "5C2F0AF4-3012-48D0-87CE-51FCADB5CB42"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/.idea": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/.idea",
+		"oF": 0
+		},
 	"\/assets\/css\/1-vendor\/_highlight-js.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -199,10 +212,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/style-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/assets\/css\/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -211,7 +224,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/assets\/img\/android-chrome-144x144.png": {
@@ -435,8 +448,9 @@
 		"q": 100
 		},
 	"\/assets\/img\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/assets\/img\/browserconfig.xml",
 		"oF": 0
 		},
@@ -463,8 +477,9 @@
 		"q": 100
 		},
 	"\/assets\/img\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/assets\/img\/favicon.ico",
 		"oF": 0
 		},
@@ -480,8 +495,9 @@
 		"q": 100
 		},
 	"\/assets\/img\/gridder-icon.sketch": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/assets\/img\/gridder-icon.sketch",
 		"oF": 0
 		},
@@ -592,172 +608,234 @@
 		},
 	"\/assets\/js\/functions.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/functions-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/assets\/js\/highlight.pack.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/highlight.pack-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/assets\/js\/min\/functions-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/functions-min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
-	"\/docs\/alignment\/bottom\/index.php": {
+	"\/changelog\/1.4.1\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
+		"oAP": "\/changelog\/1.4.1\/index.php",
+		"oF": 0
+		},
+	"\/changelog\/1.4.2\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/changelog\/1.4.2\/index.php",
+		"oF": 0
+		},
+	"\/changelog\/1.5.0\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/changelog\/1.5.0\/index.php",
+		"oF": 0
+		},
+	"\/changelog\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/changelog\/index.php",
+		"oF": 0
+		},
+	"\/docs\/alignment\/bottom\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
 		"oAP": "\/docs\/alignment\/bottom\/index.php",
 		"oF": 0
 		},
 	"\/docs\/alignment\/center\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/alignment\/center\/index.php",
 		"oF": 0
 		},
 	"\/docs\/alignment\/end\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/alignment\/end\/index.php",
 		"oF": 0
 		},
 	"\/docs\/alignment\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/alignment\/index.php",
 		"oF": 0
 		},
 	"\/docs\/alignment\/middle\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/alignment\/middle\/index.php",
 		"oF": 0
 		},
 	"\/docs\/alignment\/start\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/alignment\/start\/index.php",
 		"oF": 0
 		},
 	"\/docs\/alignment\/top\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/alignment\/top\/index.php",
 		"oF": 0
 		},
 	"\/docs\/auto-grid\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/auto-grid\/index.php",
 		"oF": 0
 		},
 	"\/docs\/distribution\/around\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/distribution\/around\/index.php",
 		"oF": 0
 		},
 	"\/docs\/distribution\/between\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/distribution\/between\/index.php",
 		"oF": 0
 		},
 	"\/docs\/distribution\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/distribution\/index.php",
 		"oF": 0
 		},
 	"\/docs\/examples\/1\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/examples\/1\/index.php",
 		"oF": 0
 		},
 	"\/docs\/examples\/2\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/examples\/2\/index.php",
 		"oF": 0
 		},
 	"\/docs\/examples\/3\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/examples\/3\/index.php",
 		"oF": 0
 		},
 	"\/docs\/examples\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/examples\/index.php",
 		"oF": 0
 		},
 	"\/docs\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/index.php",
 		"oF": 0
 		},
 	"\/docs\/installation\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/installation\/index.php",
 		"oF": 0
 		},
-	"\/docs\/nesting\/index.php": {
+	"\/docs\/masonry\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
+		"oAP": "\/docs\/masonry\/index.php",
+		"oF": 0
+		},
+	"\/docs\/nesting\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
 		"oAP": "\/docs\/nesting\/index.php",
 		"oF": 0
 		},
 	"\/docs\/offsets\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/offsets\/index.php",
 		"oF": 0
 		},
 	"\/docs\/reordering\/first\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/reordering\/first\/index.php",
 		"oF": 0
 		},
 	"\/docs\/reordering\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/reordering\/index.php",
 		"oF": 0
 		},
 	"\/docs\/reordering\/last\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/reordering\/last\/index.php",
 		"oF": 0
 		},
 	"\/docs\/reordering\/reverse\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/reordering\/reverse\/index.php",
 		"oF": 0
 		},
 	"\/docs\/syntax\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/docs\/syntax\/index.php",
 		"oF": 0
 		},
@@ -769,56 +847,106 @@
 		"oA": 0,
 		"oAP": "\/gridder\/1.4.1\/gridder.min-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
-	"\/gridder\/_gridder-1.4.1.scss": {
+	"\/gridder\/1.4.2\/gridder.min-min.css": {
 		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/gridder\/1.4.2\/gridder.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/gridder\/1.4.2\/gridder.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/gridder\/1.4.2\/gridder.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/gridder\/_gridder.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/gridder\/1.4.1\/gridder.min.css",
+		"oAP": "\/gridder\/1.5.0\/gridder.min.css",
 		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/inc\/doc_nav.php": {
+	"\/inc\/change_nav.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
+		"oAP": "\/inc\/change_nav.php",
+		"oF": 0
+		},
+	"\/inc\/doc_nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
 		"oAP": "\/inc\/doc_nav.php",
 		"oF": 0
 		},
 	"\/inc\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/inc\/footer.php",
 		"oF": 0
 		},
 	"\/inc\/header.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/inc\/header.php",
 		"oF": 0
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/LICENSE.txt",
 		"oF": 0
 		},
+	"\/npm-gridder-css\/gridder.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/npm-gridder-css\/gridder.min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/npm-gridder-css\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/npm-gridder-css\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -838,17 +966,19 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 516466244,
+	"creationDate": 557149136,
 	"displayValue": "gridder",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/assets\/img\/gridder-icon.png"
+	"iconImageName": "\/assets\/img\/apple-touch-icon-120x120.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1245,13 +1375,21 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowImplicit': false}"
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -1349,6 +1487,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -1365,9 +1507,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -1393,9 +1543,13 @@
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
 			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -1425,9 +1579,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1457,6 +1611,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1466,14 +1624,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1496,6 +1646,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -1623,7 +1777,7 @@
 			},
 		"no-extra-parens": {
 			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1871,7 +2025,7 @@
 			},
 		"no-sync": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAtRootLevel': false}"
 			},
 		"no-tabs": {
 			"active": 0,
@@ -1895,7 +2049,7 @@
 			},
 		"no-trailing-spaces": {
 			"active": 0,
-			"optionString": "{'skipBlankLines': false}"
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
 			"active": 1,
@@ -1911,7 +2065,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -2015,7 +2169,7 @@
 			},
 		"object-property-newline": {
 			"active": 0,
-			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
 			},
 		"object-shorthand": {
 			"active": 0,
@@ -2040,6 +2194,10 @@
 		"padded-blocks": {
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
 			"active": 0,
@@ -2109,6 +2267,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -2148,6 +2310,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2199,7 +2365,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "gridder.dev",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2561,7 +2727,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -2594,6 +2761,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2605,6 +2773,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -2616,7 +2785,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -2635,7 +2804,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2667,22 +2837,23 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.*",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2702,7 +2873,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2730,7 +2902,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2777,9 +2950,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
