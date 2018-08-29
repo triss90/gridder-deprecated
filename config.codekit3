@@ -227,20 +227,9 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/img\/android-chrome-144x144.png": {
-		"ft": 32768,
-		"iS": 3104,
-		"oA": 0,
-		"oAP": "\/assets\/img\/android-chrome-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/img\/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 4158,
+		"iS": 11485,
 		"oA": 0,
 		"oAP": "\/assets\/img\/android-chrome-192x192.png",
 		"oF": 0,
@@ -249,53 +238,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/android-chrome-256x256.png": {
-		"ft": 32768,
-		"iS": 5600,
-		"oA": 0,
-		"oAP": "\/assets\/img\/android-chrome-256x256.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/android-chrome-36x36.png": {
-		"ft": 32768,
-		"iS": 963,
-		"oA": 0,
-		"oAP": "\/assets\/img\/android-chrome-36x36.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/android-chrome-384x384.png": {
-		"ft": 32768,
-		"iS": 8933,
-		"oA": 0,
-		"oAP": "\/assets\/img\/android-chrome-384x384.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/android-chrome-48x48.png": {
-		"ft": 32768,
-		"iS": 1195,
-		"oA": 0,
-		"oAP": "\/assets\/img\/android-chrome-48x48.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/img\/android-chrome-512x512.png": {
 		"ft": 32768,
-		"iS": 8777,
+		"iS": 35884,
 		"oA": 0,
 		"oAP": "\/assets\/img\/android-chrome-512x512.png",
 		"oF": 0,
@@ -304,130 +249,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/android-chrome-72x72.png": {
-		"ft": 32768,
-		"iS": 1651,
-		"oA": 0,
-		"oAP": "\/assets\/img\/android-chrome-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/android-chrome-96x96.png": {
-		"ft": 32768,
-		"iS": 2150,
-		"oA": 0,
-		"oAP": "\/assets\/img\/android-chrome-96x96.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/apple-touch-icon-114x114.png": {
-		"ft": 32768,
-		"iS": 1131,
-		"oA": 0,
-		"oAP": "\/assets\/img\/apple-touch-icon-114x114.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/apple-touch-icon-120x120.png": {
-		"ft": 32768,
-		"iS": 1181,
-		"oA": 0,
-		"oAP": "\/assets\/img\/apple-touch-icon-120x120.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/apple-touch-icon-144x144.png": {
-		"ft": 32768,
-		"iS": 1344,
-		"oA": 0,
-		"oAP": "\/assets\/img\/apple-touch-icon-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/apple-touch-icon-152x152.png": {
-		"ft": 32768,
-		"iS": 1467,
-		"oA": 0,
-		"oAP": "\/assets\/img\/apple-touch-icon-152x152.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/apple-touch-icon-180x180.png": {
-		"ft": 32768,
-		"iS": 1732,
-		"oA": 0,
-		"oAP": "\/assets\/img\/apple-touch-icon-180x180.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/apple-touch-icon-57x57.png": {
-		"ft": 32768,
-		"iS": 735,
-		"oA": 0,
-		"oAP": "\/assets\/img\/apple-touch-icon-57x57.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/apple-touch-icon-60x60.png": {
-		"ft": 32768,
-		"iS": 751,
-		"oA": 0,
-		"oAP": "\/assets\/img\/apple-touch-icon-60x60.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/apple-touch-icon-72x72.png": {
-		"ft": 32768,
-		"iS": 842,
-		"oA": 0,
-		"oAP": "\/assets\/img\/apple-touch-icon-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/apple-touch-icon-76x76.png": {
-		"ft": 32768,
-		"iS": 867,
-		"oA": 0,
-		"oAP": "\/assets\/img\/apple-touch-icon-76x76.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/img\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 1633,
+		"iS": 7086,
 		"oA": 0,
 		"oAP": "\/assets\/img\/apple-touch-icon.png",
 		"oF": 0,
@@ -456,7 +280,7 @@
 		},
 	"\/assets\/img\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 524,
+		"iS": 1381,
 		"oA": 0,
 		"oAP": "\/assets\/img\/favicon-16x16.png",
 		"oF": 0,
@@ -467,7 +291,7 @@
 		},
 	"\/assets\/img\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 803,
+		"iS": 1961,
 		"oA": 0,
 		"oAP": "\/assets\/img\/favicon-32x32.png",
 		"oF": 0,
@@ -483,34 +307,6 @@
 		"oAP": "\/assets\/img\/favicon.ico",
 		"oF": 0
 		},
-	"\/assets\/img\/gridder-icon.png": {
-		"ft": 32768,
-		"iS": 19619,
-		"oA": 0,
-		"oAP": "\/assets\/img\/gridder-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/gridder-icon.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/img\/gridder-icon.sketch",
-		"oF": 0
-		},
-	"\/assets\/img\/gridder-icon.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/gridder-icon.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/img\/landingpage.png": {
 		"ft": 32768,
 		"iS": 9226,
@@ -522,63 +318,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/assets\/img\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/assets\/img\/mstile-144x144.png": {
-		"ft": 32768,
-		"iS": 2850,
-		"oA": 0,
-		"oAP": "\/assets\/img\/mstile-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/img\/mstile-150x150.png": {
 		"ft": 32768,
-		"iS": 3018,
+		"iS": 7149,
 		"oA": 0,
 		"oAP": "\/assets\/img\/mstile-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/mstile-310x150.png": {
-		"ft": 32768,
-		"iS": 3375,
-		"oA": 0,
-		"oAP": "\/assets\/img\/mstile-310x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/mstile-310x310.png": {
-		"ft": 32768,
-		"iS": 6643,
-		"oA": 0,
-		"oAP": "\/assets\/img\/mstile-310x310.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/mstile-70x70.png": {
-		"ft": 32768,
-		"iS": 2125,
-		"oA": 0,
-		"oAP": "\/assets\/img\/mstile-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -594,6 +338,13 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/img\/site.webmanifest",
+		"oF": 0
 		},
 	"\/assets\/img\/store.png": {
 		"ft": 32768,
@@ -951,6 +702,16 @@
 		"oAP": "\/LICENSE.txt",
 		"oF": 0
 		},
+	"\/npm-gridder-css\/gridder.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/npm-gridder-css\/gridder.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/npm-gridder-css\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1004,7 +765,7 @@
 	"creationDate": 557149136,
 	"displayValue": "gridder",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/assets\/img\/apple-touch-icon-120x120.png",
+	"iconImageName": "\/assets\/img\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

@@ -22,4 +22,60 @@ footer {
       fill: $color4
     }
   }
+  #gridder-logo {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    .a {
+      fill: #fff;
+      transition: 200ms ease-in-out;
+    }
+    .b {
+      fill: none;
+      stroke: #fff;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+      stroke-width: 18px;
+    }
+    &:hover {
+      .a:nth-child(2) {
+        r: 30;
+        transition-delay: 0;
+      }
+      .a:nth-child(6) {
+        r: 30;
+        transition-delay: 33ms;
+      }
+      .a:nth-child(1) {
+        r: 30;
+        transition-delay: 66ms;
+      }
+      .a:nth-child(7) {
+        r: 30;
+        transition-delay: 99ms;
+      }
+      .a:nth-child(5) {
+        r: 30;
+        transition-delay: 133ms;
+      }
+      .a:nth-child(9) {
+        r: 30;
+        transition-delay: 166ms;
+      }
+      .a:nth-child(4) {
+        r: 30;
+        transition-delay: 199ms;
+      }
+      .a:nth-child(8) {
+        r: 30;
+        transition-delay: 233ms;
+      }
+      .a:nth-child(3) {
+        r: 30;
+        transition-delay: 266ms;
+      }
+    }
+  }
+
 }

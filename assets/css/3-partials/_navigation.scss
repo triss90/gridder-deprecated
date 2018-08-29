@@ -39,20 +39,43 @@
     border: 0;
     &:hover {
       background: none;
-      .text {
-        color: rgba($color4,0.4);
-      }
+
       #gridder-logo {
-        path {
-          fill: rgba($color4,0.4);
-          //transform: rotateZ(72deg) scale(0.8);
-          &:first-child {
-            transform: translateX(39px)rotateZ(30deg);
-          }
-          &:nth-child(2) {
-            transform: translateX(-39px)rotateZ(-30deg);
-          }
-          transform-origin: center center;
+        .a:nth-child(2) {
+          r: 30;
+          transition-delay: 0;
+        }
+        .a:nth-child(6) {
+          r: 30;
+          transition-delay: 33ms;
+        }
+        .a:nth-child(1) {
+          r: 30;
+          transition-delay: 66ms;
+        }
+        .a:nth-child(7) {
+          r: 30;
+          transition-delay: 99ms;
+        }
+        .a:nth-child(5) {
+          r: 30;
+          transition-delay: 133ms;
+        }
+        .a:nth-child(9) {
+          r: 30;
+          transition-delay: 166ms;
+        }
+        .a:nth-child(4) {
+          r: 30;
+          transition-delay: 199ms;
+        }
+        .a:nth-child(8) {
+          r: 30;
+          transition-delay: 233ms;
+        }
+        .a:nth-child(3) {
+          r: 30;
+          transition-delay: 266ms;
         }
       }
     }
@@ -69,11 +92,23 @@
       border: 0;
     }
     #gridder-logo {
-      overflow: visible;
-      path {
-        transition: all 100ms ease-in-out;
+      width: 40px;
+      height: 40px;
+      padding: 2px;
+      .a {
+        fill: #fff;
+        transition: 200ms ease-in-out;
+      }
+      .b {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 18px;
       }
     }
+
     @media(max-width: 46em) {
       width: 100%;
       text-align: center;
