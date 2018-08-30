@@ -27,8 +27,21 @@ $pageDescription = "Version 1.5.0";
 
                 <div class="tiny">
                     <h1>Version 1.5.0 news and changes</h1>
+
+                    <h2>Added</h2>
                     <ul>
                         <li>Added flexible <a href="https://gridder.io/docs/masonry/" title="Masonry Grid">masonry grid</a> support</li>
+
+                    </ul>
+
+                    <h2>Changed</h2>
+                    <ul>
+                        <li>n/a</li>
+                    </ul>
+
+                    <h2>Removed</h2>
+                    <ul>
+                        <li>n/a</li>
                     </ul>
                     <br><a href="/gridder/1.5.0/gridder.min.css" download class="button primary">Download v1.5.0</a>
                 </div>

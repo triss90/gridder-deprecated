@@ -27,10 +27,24 @@ $pageDescription = "Version 1.5.1";
 
                 <div class="tiny">
                     <h1>Version 1.5.1 news and changes</h1>
+
+                    <h2>Added</h2>
+                    <ul>
+                        <li>n/a</li>
+                    </ul>
+
+                    <h2>Changed</h2>
                     <ul>
                         <li>Fix problem where the masonry would sometimes fail between medium and small viewport size</li>
                     </ul>
-                    <br><a href="/gridder/1.5.1/gridder.min.css" download class="button primary">Download v1.5.1</a>
+
+                    <h2>Removed</h2>
+                    <ul>
+                        <li>n/a</li>
+                    </ul>
+
+                    <br>
+                    <a href="/gridder/1.5.1/gridder.min.css" download class="button primary">Download v1.5.1</a>
                 </div>
 
             </div>

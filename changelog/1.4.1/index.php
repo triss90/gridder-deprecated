@@ -26,7 +26,22 @@ $pageDescription = "Version 1.4.1";
             <div class="row">
                 <div class="tiny">
                     <h1>Version 1.4.1 news and changes</h1>
-                    <li>Added support for vertical/horizontal centering</li>
+
+                    <h2>Added</h2>
+                    <ul>
+                        <li>Added support for vertical/horizontal centering</li>
+                    </ul>
+
+                    <h2>Changed</h2>
+                    <ul>
+                        <li>n/a</li>
+                    </ul>
+
+                    <h2>Removed</h2>
+                    <ul>
+                        <li>n/a</li>
+                    </ul>
+
                     <br><a href="/gridder/1.4.1/gridder.min.css" download class="button primary">Download v1.4.1</a>
                 </div>
             </div>
