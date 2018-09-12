@@ -1,0 +1,46 @@
+table {
+  font-size: 1rem;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 0.1rem solid #ccc;
+  }
+  .th {
+    font-family: 'Open Sans Bold', sans-serif;
+  }
+  thead th {
+    vertical-align: bottom;
+  }
+
+  // Fixed
+  &.fixed {
+    table-layout: fixed;
+  }
+
+  // Border
+  &.border {
+    border: 0.1rem solid #ccc;
+    th, td {
+      padding: 0.8rem;
+      border: 0.1rem solid #ccc;
+    }
+    th {
+      background-color: rgba(0,0,0,0.05);
+    }
+  }
+
+  //highlight
+  &.highlight {
+    tbody tr:nth-child(even) {
+      background-color: rgba(0,0,0,0.03);
+    }
+  }
+}

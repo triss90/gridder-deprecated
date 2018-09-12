@@ -28,6 +28,40 @@
           <h1>Syntax</h1>
           <p>First, make sure to wrap your columns in a row element. Then specify your columns and stick your content inside.
           Use the following classes to identify your coloumns: <span class="label inline dark">tiny-*</span> <span class="label inline dark">small-*</span> <span class="label inline dark">medium-*</span> <span class="label inline dark">large-*</span></p>
+          <p>Each class corresponds to a break point:</p>
+            <table>
+                <thead>
+                <tr>
+                    <th>Classname</th>
+                    <th>in em</th>
+                    <th>In px</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><span class="label inline dark">tiny-*</span></td>
+                    <td>> 0em</td>
+                    <td>> 0px</td>
+                </tr>
+                <tr>
+                    <td><span class="label inline dark">small-*</span></td>
+                    <td>> 48em</td>
+                    <td>> 768px</td>
+                </tr>
+                <tr>
+                    <td><span class="label inline dark">medium-*</span></td>
+                    <td>> 64em</td>
+                    <td>> 1.024px</td>
+                </tr>
+                <tr>
+                    <td><span class="label inline dark">large-*</span></td>
+                    <td>> 75em</td>
+                    <td>>1.200px</td>
+                </tr>
+                </tbody>
+            </table>
+            <p>This assumes a base fontsize of 16px</p>
+ 
           <i>* is a number between 1 and 12, where 1 is a single column.</i>
         </p>
         <pre><code class="html codeblock">

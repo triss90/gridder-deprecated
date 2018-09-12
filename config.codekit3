@@ -204,6 +204,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/3-partials\/_tables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/3-partials\/_tables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
