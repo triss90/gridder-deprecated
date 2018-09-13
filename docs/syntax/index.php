@@ -56,12 +56,12 @@
                 <tr>
                     <td><span class="label inline dark">large-*</span></td>
                     <td>> 75em</td>
-                    <td>>1.200px</td>
+                    <td>> 1.200px</td>
                 </tr>
                 </tbody>
             </table>
             <p>This assumes a base fontsize of 16px</p>
- 
+
           <i>* is a number between 1 and 12, where 1 is a single column.</i>
         </p>
         <pre><code class="html codeblock">
